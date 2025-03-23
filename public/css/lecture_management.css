@@ -1,0 +1,663 @@
+/* Lecture Management Styles */
+
+.lessons-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.lesson-card {
+    background: var(--card-light);
+    border-radius: 16px;
+    box-shadow: var(--shadow-light);
+    padding: 20px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.dark-mode .lesson-card {
+    background: var(--card-dark);
+    box-shadow: var(--shadow-dark);
+}
+
+.lesson-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* Course Details Card Styles */
+.course-details-card {
+    background: var(--card-light);
+    border-radius: 16px;
+    box-shadow: var(--shadow-light);
+    padding: 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.dark-mode .course-details-card {
+    background: var(--card-dark);
+    box-shadow: var(--shadow-dark);
+}
+
+.course-details-header {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.course-image-container {
+    flex-shrink: 0;
+    width: 180px;
+    height: 120px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.course-detail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course-details-info {
+    flex: 1;
+}
+
+.course-details-info h3 {
+    margin: 0 0 10px 0;
+    color: var(--text-dark);
+    font-size: 1.4rem;
+}
+
+.dark-mode .course-details-info h3 {
+    color: var(--text-light);
+}
+
+.course-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.course-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.course-meta i {
+    color: var(--primary-color);
+}
+
+.course-description {
+    color: var(--text-dark);
+    line-height: 1.5;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.dark-mode .course-description {
+    color: var(--text-light);
+}
+
+.course-lesson-counts {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.dark-mode .course-lesson-counts {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.counts-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(98, 74, 242, 0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+    min-width: 80px;
+}
+
+.counts-item .count {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.counts-item .label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 3px;
+}
+
+@media (max-width: 768px) {
+    .course-details-header {
+        flex-direction: column;
+    }
+    
+    .course-image-container {
+        width: 100%;
+        height: 160px;
+    }
+}
+
+/* Lesson styles */
+.lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.lesson-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.dark-mode .lesson-title {
+    color: var(--text-light);
+}
+
+.lesson-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.lesson-actions a, .lesson-actions button {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 5px;
+    transition: all 0.2s;
+}
+
+.lesson-actions a:hover, .lesson-actions button:hover {
+    color: #513dd8;
+    transform: scale(1.1);
+}
+
+.lesson-actions .delete-btn {
+    color: #e74c3c;
+}
+
+.lesson-actions .delete-btn:hover {
+    color: #c0392b;
+}
+
+.lesson-meta {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.lesson-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lesson-content {
+    color: var(--text-dark);
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.dark-mode .lesson-content {
+    color: var(--text-light);
+}
+
+.lesson-form {
+    background: var(--card-light);
+    border-radius: 16px;
+    box-shadow: var(--shadow-light);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.dark-mode .lesson-form {
+    background: var(--card-dark);
+    box-shadow: var(--shadow-dark);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.dark-mode .form-group label {
+    color: var(--text-light);
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: var(--card-light);
+    color: var(--text-dark);
+    transition: all 0.3s;
+}
+
+.dark-mode .form-control {
+    background: var(--card-dark);
+    color: var(--text-light);
+    border-color: #444;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(98, 74, 242, 0.2);
+}
+
+textarea.form-control {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.btn-submit {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+}
+
+.btn-submit:hover {
+    background: #513dd8;
+    transform: translateY(-2px);
+}
+
+.btn-cancel {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    margin-left: 10px;
+}
+
+.btn-cancel:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+.no-lessons {
+    background: var(--card-light);
+    border-radius: 16px;
+    box-shadow: var(--shadow-light);
+    padding: 30px;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.dark-mode .no-lessons {
+    background: var(--card-dark);
+    box-shadow: var(--shadow-dark);
+}
+
+.success-message, .error-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.success-message {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+    border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.error-message {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.dark-mode .success-message {
+    background: rgba(34, 197, 94, 0.2);
+}
+
+.dark-mode .error-message {
+    background: rgba(239, 68, 68, 0.2);
+}
+
+.lesson-attachments {
+    margin-top: 15px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+.lesson-attachments h5 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.attachment-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.attachment-item {
+    font-size: 13px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.attachment-item i {
+    margin-right: 5px;
+    color: #0056b3;
+}
+
+.attachment-item a {
+    color: #333;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.attachment-item a:hover {
+    text-decoration: underline;
+}
+
+.more-files {
+    background-color: #e8f4ff;
+    cursor: pointer;
+}
+
+.more-files:hover {
+    background-color: #d1e9ff;
+}
+
+.file-display {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.file-display span {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 80%;
+}
+
+.file-display span i {
+    margin-right: 8px;
+    color: #0056b3;
+}
+
+.file-display .file-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.file-actions a, .file-actions button {
+    background: none;
+    border: none;
+    color: #0056b3;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+}
+
+.file-actions button.delete-file {
+    color: #dc3545;
+}
+
+.file-actions a:hover, .file-actions button:hover {
+    opacity: 0.8;
+}
+
+.file-input {
+    margin-bottom: 10px;
+}
+
+/* Additional files details styles */
+.files-details {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+    position: relative;
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.files-details .close-details {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+}
+
+.files-details .close-details:hover {
+    color: #343a40;
+}
+
+.files-details .file-item {
+    margin-bottom: 8px;
+    padding: 6px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    align-items: center;
+}
+
+.files-details .file-item:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.files-details .file-item i {
+    margin-right: 10px;
+    color: #0056b3;
+    font-size: 16px;
+}
+
+.files-details .file-item a {
+    color: #333;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.files-details .file-item a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Lesson Order Styles */
+.lesson-order-toolbar {
+    background: var(--card-light);
+    border-radius: 16px;
+    box-shadow: var(--shadow-light);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.dark-mode .lesson-order-toolbar {
+    background: var(--card-dark);
+    box-shadow: var(--shadow-dark);
+}
+
+.lesson-order-toolbar h4 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.lesson-order-toolbar p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.btn-order-save {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+}
+
+.lesson-order-controls {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--primary-color);
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    z-index: 2;
+}
+
+.order-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: white;
+    color: var(--primary-color);
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+.order-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.order-btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.order-btn:hover {
+    background: rgba(255,255,255,0.4);
+    transform: scale(1.1);
+}
+
+.order-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.order-btn:disabled:hover {
+    background: rgba(255,255,255,0.2);
+    transform: none;
+}
+
+.btn-order-save.highlight {
+    animation: pulse 1.5s infinite;
+    background-color: #10b981;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    }
+}
+
+.sortable-lessons {
+    position: relative;
+}
+
+.sortable-lessons .lesson-card {
+    cursor: grab;
+}
+
+.sortable-lessons .lesson-card.dragging {
+    opacity: 0.7;
+    cursor: grabbing;
+} 

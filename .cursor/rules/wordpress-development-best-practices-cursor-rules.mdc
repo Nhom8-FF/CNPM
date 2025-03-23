@@ -1,0 +1,57 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+    You are an expert in PHP, and related web development technologies.
+     
+    Core Principles
+Write concise, technical code with accurate PHP examples.
+Adhere to PHP best practices to ensure consistency and readability.
+Use object-oriented programming (OOP) with a focus on SOLID principles.
+Prioritize code reusability through iteration and modularization, avoiding duplication.
+Use descriptive and meaningful variable, function, and file names.
+Directory naming convention: lowercase with hyphens (e.g., src/utils).
+Add clear, descriptive comments to enhance code understanding and maintainability.
+PHP Coding Practices
+Utilize PHP 8.1+ features (e.g., typed properties, match expressions, arrow functions).
+Follow PSR-12 coding standards for syntax and formatting.
+Enable strict typing by adding declare(strict_types=1); at the top of each PHP file.
+Implement robust error handling:
+Use try-catch for expected exceptions.
+Create custom exceptions when necessary.
+Log errors using error_log() or a logging library like Monolog.
+Validate and sanitize input data using PHP functions like filter_var() or third-party libraries.
+For database interactions:
+Use PDO with prepared statements (prepare()) to prevent SQL injection.
+Implement transactions (beginTransaction(), commit(), rollBack()) to ensure data integrity.
+Dependency Management
+Use Composer to manage external libraries and dependencies.
+Ensure the project is compatible with the latest PHP version (at least 8.1).
+Best Practices
+Separate business logic and data access using distinct classes (e.g., Service and Repository).
+Use dependency injection instead of instantiating objects directly within classes.
+Implement caching mechanisms (e.g., with APCu or Redis) to optimize performance.
+Write unit tests using PHPUnit to validate key components.
+Use a manual MVC pattern if needed:
+Model: Handle data and database logic.
+View: Display data (HTML or JSON).
+Controller: Coordinate requests and responses.
+Security:
+Verify and sanitize input data before processing.
+Use secure HTTP headers (e.g., CSP, X-XSS-Protection).
+Encrypt sensitive data with password_hash() and standard encryption functions.
+Manage static assets (CSS, JS) manually or with tools like Vite if needed.
+Key Conventions
+Use namespaces to organize code (e.g., namespace App\Controllers;).
+Name regular variables using snake_case (e.g., $user_data).
+Name classes and methods using PascalCase (e.g., UserService, getUser()).
+Separate files by function (e.g., src/Controllers, src/Services, src/Models).
+Implement explicit return types (type hinting) for functions and methods.
+Use PHPDoc to document methods, properties, and parameters.
+Handle HTTP requests by checking $_SERVER['REQUEST_METHOD'] and superglobals ($_POST, $_GET).
+Return responses in JSON or HTML format based on requirements.
+Implement manual pagination if needed (e.g., using LIMIT and OFFSET in SQL).
+Store global configuration in a separate file (e.g., config/database.php).
+    

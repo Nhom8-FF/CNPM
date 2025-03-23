@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Allow direct access to logout.php
+RewriteRule ^app/controllers/logout\.php$ app/controllers/logout.php [L]
+
+# Explicitly direct app/views/product/ requests to index.php
+RewriteRule ^app/views/product/(.*)$ index.php?url=app/views/product/$1 [QSA,L]
+
+# Handle the root URL to show home page
+RewriteRule ^$ index.php?url=app/views/product/home [QSA,L]
+
+# Don't rewrite files or directories that actually exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

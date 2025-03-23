@@ -1,0 +1,251 @@
+[21-Mar-2025 19:28:40 Europe/Berlin] [2025-03-21 19:28:40] API: API config loaded successfully
+[21-Mar-2025 19:28:40 Europe/Berlin] [2025-03-21 19:28:40] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:28:40 Europe/Berlin] [2025-03-21 19:28:40] API: Processing prompt: chào
+[21-Mar-2025 19:28:40 Europe/Berlin] [2025-03-21 19:28:40] API: Detected language: en
+[21-Mar-2025 19:28:40 Europe/Berlin] [2025-03-21 19:28:40] API: Setting initial preferred language: en
+[21-Mar-2025 19:28:40 Europe/Berlin] [2025-03-21 19:28:40] API: Using language instruction: Please reply in English.
+[21-Mar-2025 19:28:40 Europe/Berlin] [2025-03-21 19:28:40] API: Attempting to call Gemini API
+[21-Mar-2025 19:28:40 Europe/Berlin] [2025-03-21 19:28:40] API: Using Gemini model: gemini-2.0-flash
+[21-Mar-2025 19:28:41 Europe/Berlin] [2025-03-21 19:28:41] API: Gemini API response code: 200
+[21-Mar-2025 19:28:41 Europe/Berlin] [2025-03-21 19:28:41] API: Gemini API returned successful response
+[21-Mar-2025 19:28:41 Europe/Berlin] [2025-03-21 19:28:41] API: Sending response: Hello! How can I help you today?
+...
+[21-Mar-2025 19:28:47 Europe/Berlin] [2025-03-21 19:28:47] API: API config loaded successfully
+[21-Mar-2025 19:28:47 Europe/Berlin] [2025-03-21 19:28:47] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:28:47 Europe/Berlin] [2025-03-21 19:28:47] API: Processing prompt: vi
+[21-Mar-2025 19:28:47 Europe/Berlin] [2025-03-21 19:28:47] API: Using saved language preference: en
+[21-Mar-2025 19:28:47 Europe/Berlin] [2025-03-21 19:28:47] API: Using language instruction: Please reply in English.
+[21-Mar-2025 19:28:47 Europe/Berlin] [2025-03-21 19:28:47] API: Attempting to call Gemini API
+[21-Mar-2025 19:28:47 Europe/Berlin] [2025-03-21 19:28:47] API: Using Gemini model: gemini-2.0-flash
+[21-Mar-2025 19:28:48 Europe/Berlin] [2025-03-21 19:28:48] API: Gemini API response code: 200
+[21-Mar-2025 19:28:48 Europe/Berlin] [2025-03-21 19:28:48] API: Gemini API returned successful response
+[21-Mar-2025 19:28:48 Europe/Berlin] [2025-03-21 19:28:48] API: Sending response: Please provide me with the question you would like me to answer. I need the question to be able to p...
+[21-Mar-2025 19:28:50 Europe/Berlin] [2025-03-21 19:28:50] API: API config loaded successfully
+[21-Mar-2025 19:28:50 Europe/Berlin] [2025-03-21 19:28:50] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:28:50 Europe/Berlin] [2025-03-21 19:28:50] API: Processing prompt: /lang en
+[21-Mar-2025 19:28:50 Europe/Berlin] [2025-03-21 19:28:50] API: Language changed via command to: en
+[21-Mar-2025 19:28:50 Europe/Berlin] [2025-03-21 19:28:50] API: Sending response: Switched to English. How can I help you?...
+[21-Mar-2025 19:28:52 Europe/Berlin] [2025-03-21 19:28:52] API: API config loaded successfully
+[21-Mar-2025 19:28:52 Europe/Berlin] [2025-03-21 19:28:52] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:28:52 Europe/Berlin] [2025-03-21 19:28:52] API: Processing prompt: /lang vi
+[21-Mar-2025 19:28:52 Europe/Berlin] [2025-03-21 19:28:52] API: Language changed via command to: vi
+[21-Mar-2025 19:28:52 Europe/Berlin] [2025-03-21 19:28:52] API: Sending response: Đã chuyển sang trả lời bằng tiếng Việt. Tôi có thể giúp gì cho bạn?...
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: API config loaded successfully
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: Received request - {"POST":["csrf_token"],"FILES":"Files present","CSRF":"Present"}
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: Processing prompt: 
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: Using saved language preference: vi
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: Using language instruction: Hãy trả lời bằng tiếng Việt.
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: Processing file: QLDL.doc.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: DOCX parsing successful, extracted 167 characters
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: File content extracted, length: 165
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: Created default prompt for file analysis
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: Attempting to call Gemini API
+[21-Mar-2025 19:29:05 Europe/Berlin] [2025-03-21 19:29:05] API: Using Gemini model: gemini-2.0-flash
+[21-Mar-2025 19:29:06 Europe/Berlin] [2025-03-21 19:29:06] API: Gemini API response code: 200
+[21-Mar-2025 19:29:06 Europe/Berlin] [2025-03-21 19:29:06] API: Gemini API returned successful response
+[21-Mar-2025 19:29:06 Europe/Berlin] [2025-03-21 19:29:06] API: Sending response: Tài liệu đính kèm là bài làm của sinh viên Nguyễn Tiến Vương (MSSV: 2280603772, L�...
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: API config loaded successfully
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: Received request - {"POST":["csrf_token"],"FILES":"Files present","CSRF":"Present"}
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: Processing prompt: 
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: Using saved language preference: vi
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: Using language instruction: Hãy trả lời bằng tiếng Việt.
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: Processing file: onlineCourses.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: DOCX parsing successful, extracted 5896 characters
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: File content extracted, length: 5894
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: Created default prompt for file analysis
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: Attempting to call Gemini API
+[21-Mar-2025 19:29:19 Europe/Berlin] [2025-03-21 19:29:19] API: Using Gemini model: gemini-2.0-flash
+[21-Mar-2025 19:29:21 Europe/Berlin] [2025-03-21 19:29:21] API: Gemini API response code: 200
+[21-Mar-2025 19:29:21 Europe/Berlin] [2025-03-21 19:29:21] API: Gemini API returned successful response
+[21-Mar-2025 19:29:21 Europe/Berlin] [2025-03-21 19:29:21] API: Sending response: Tài liệu mô tả cấu trúc cơ sở dữ liệu cho một nền tảng học trực tuyến, b...
+[21-Mar-2025 19:29:25 Europe/Berlin] [2025-03-21 19:29:25] API: API config loaded successfully
+[21-Mar-2025 19:29:25 Europe/Berlin] [2025-03-21 19:29:25] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:29:25 Europe/Berlin] [2025-03-21 19:29:25] API: Processing prompt: /lang en
+[21-Mar-2025 19:29:25 Europe/Berlin] [2025-03-21 19:29:25] API: Language changed via command to: en
+[21-Mar-2025 19:29:25 Europe/Berlin] [2025-03-21 19:29:25] API: Sending response: Switched to English. How can I help you?...
+[21-Mar-2025 19:29:29 Europe/Berlin] [2025-03-21 19:29:29] API: API config loaded successfully
+[21-Mar-2025 19:29:29 Europe/Berlin] [2025-03-21 19:29:29] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:29:29 Europe/Berlin] [2025-03-21 19:29:29] API: Processing prompt: /lang ko
+[21-Mar-2025 19:29:29 Europe/Berlin] [2025-03-21 19:29:29] API: Language changed via command to: ko
+[21-Mar-2025 19:29:29 Europe/Berlin] [2025-03-21 19:29:29] API: Sending response: 한국어로 전환되었습니다. 어떻게 도와드릴까요?...
+[21-Mar-2025 19:30:01 Europe/Berlin] [2025-03-21 19:30:01] API: API config loaded successfully
+[21-Mar-2025 19:30:01 Europe/Berlin] [2025-03-21 19:30:01] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:30:01 Europe/Berlin] [2025-03-21 19:30:01] API: Processing prompt: chào
+[21-Mar-2025 19:30:01 Europe/Berlin] [2025-03-21 19:30:01] API: Using saved language preference: ko
+[21-Mar-2025 19:30:01 Europe/Berlin] [2025-03-21 19:30:01] API: Using language instruction: 한국어로 답변해 주세요。
+[21-Mar-2025 19:30:01 Europe/Berlin] [2025-03-21 19:30:01] API: Attempting to call Gemini API
+[21-Mar-2025 19:30:01 Europe/Berlin] [2025-03-21 19:30:01] API: Using Gemini model: gemini-2.0-flash
+[21-Mar-2025 19:30:02 Europe/Berlin] [2025-03-21 19:30:02] API: Gemini API response code: 200
+[21-Mar-2025 19:30:02 Europe/Berlin] [2025-03-21 19:30:02] API: Gemini API returned successful response
+[21-Mar-2025 19:30:02 Europe/Berlin] [2025-03-21 19:30:02] API: Sending response: 안녕하세요! 무엇을 도와드릴까요? (Xin chào! Tôi có thể giúp gì cho bạn?)
+...
+[21-Mar-2025 19:30:05 Europe/Berlin] [2025-03-21 19:30:05] API: API config loaded successfully
+[21-Mar-2025 19:30:05 Europe/Berlin] [2025-03-21 19:30:05] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:30:05 Europe/Berlin] [2025-03-21 19:30:05] API: Processing prompt: /lang vi
+[21-Mar-2025 19:30:05 Europe/Berlin] [2025-03-21 19:30:05] API: Language changed via command to: vi
+[21-Mar-2025 19:30:05 Europe/Berlin] [2025-03-21 19:30:05] API: Sending response: Đã chuyển sang trả lời bằng tiếng Việt. Tôi có thể giúp gì cho bạn?...
+[21-Mar-2025 19:30:07 Europe/Berlin] [2025-03-21 19:30:07] API: API config loaded successfully
+[21-Mar-2025 19:30:07 Europe/Berlin] [2025-03-21 19:30:07] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:30:07 Europe/Berlin] [2025-03-21 19:30:07] API: Processing prompt: /lang en
+[21-Mar-2025 19:30:07 Europe/Berlin] [2025-03-21 19:30:07] API: Language changed via command to: en
+[21-Mar-2025 19:30:07 Europe/Berlin] [2025-03-21 19:30:07] API: Sending response: Switched to English. How can I help you?...
+[21-Mar-2025 19:30:09 Europe/Berlin] [2025-03-21 19:30:09] API: API config loaded successfully
+[21-Mar-2025 19:30:09 Europe/Berlin] [2025-03-21 19:30:09] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:30:09 Europe/Berlin] [2025-03-21 19:30:09] API: Processing prompt: /lang zh
+[21-Mar-2025 19:30:09 Europe/Berlin] [2025-03-21 19:30:09] API: Language changed via command to: zh
+[21-Mar-2025 19:30:09 Europe/Berlin] [2025-03-21 19:30:09] API: Sending response: 已切换到中文。我能帮您什么忙？...
+[21-Mar-2025 19:30:10 Europe/Berlin] [2025-03-21 19:30:10] API: API config loaded successfully
+[21-Mar-2025 19:30:10 Europe/Berlin] [2025-03-21 19:30:10] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:30:10 Europe/Berlin] [2025-03-21 19:30:10] API: Processing prompt: /lang es
+[21-Mar-2025 19:30:10 Europe/Berlin] [2025-03-21 19:30:10] API: Language changed via command to: es
+[21-Mar-2025 19:30:10 Europe/Berlin] [2025-03-21 19:30:10] API: Sending response: Cambiado a español. ¿Cómo puedo ayudarte?...
+[21-Mar-2025 19:30:11 Europe/Berlin] [2025-03-21 19:30:11] API: API config loaded successfully
+[21-Mar-2025 19:30:11 Europe/Berlin] [2025-03-21 19:30:11] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:30:11 Europe/Berlin] [2025-03-21 19:30:11] API: Processing prompt: /lang vi
+[21-Mar-2025 19:30:11 Europe/Berlin] [2025-03-21 19:30:11] API: Language changed via command to: vi
+[21-Mar-2025 19:30:11 Europe/Berlin] [2025-03-21 19:30:11] API: Sending response: Đã chuyển sang trả lời bằng tiếng Việt. Tôi có thể giúp gì cho bạn?...
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: API config loaded successfully
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Received request - {"POST":["csrf_token"],"FILES":"Files present","CSRF":"Present"}
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Processing prompt: 
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Using saved language preference: vi
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Using language instruction: Hãy trả lời bằng tiếng Việt.
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Processing file: onlineCourses.pdf (application/pdf)
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Trying to parse PDF with local pdftotext at: D:\PHP\htdocs\WebCourses/vendor/poppler/poppler-23.08.0/Library/bin/pdftotext.exe
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Local pdftotext command executed successfully
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: PDF parsing successful with local pdftotext, extracted 26420 characters
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: File content extracted, length: 26420
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Created default prompt for file analysis
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Attempting to call Gemini API
+[21-Mar-2025 19:30:18 Europe/Berlin] [2025-03-21 19:30:18] API: Using Gemini model: gemini-2.0-flash
+[21-Mar-2025 19:30:21 Europe/Berlin] [2025-03-21 19:30:21] API: Gemini API response code: 200
+[21-Mar-2025 19:30:21 Europe/Berlin] [2025-03-21 19:30:21] API: Gemini API returned successful response
+[21-Mar-2025 19:30:21 Europe/Berlin] [2025-03-21 19:30:21] API: Sending response: Tài liệu là một trang web PHP cho phép người dùng đăng ký, đăng nhập, quên mật ...
+[21-Mar-2025 19:30:24 Europe/Berlin] [2025-03-21 19:30:24] API: API config loaded successfully
+[21-Mar-2025 19:30:24 Europe/Berlin] [2025-03-21 19:30:24] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:30:24 Europe/Berlin] [2025-03-21 19:30:24] API: Processing prompt: /lang en
+[21-Mar-2025 19:30:24 Europe/Berlin] [2025-03-21 19:30:24] API: Language changed via command to: en
+[21-Mar-2025 19:30:24 Europe/Berlin] [2025-03-21 19:30:24] API: Sending response: Switched to English. How can I help you?...
+[21-Mar-2025 19:33:21 Europe/Berlin] [2025-03-21 19:33:21] API: API config loaded successfully
+[21-Mar-2025 19:33:21 Europe/Berlin] [2025-03-21 19:33:21] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:33:21 Europe/Berlin] [2025-03-21 19:33:21] API: Processing prompt: /lang es
+[21-Mar-2025 19:33:21 Europe/Berlin] [2025-03-21 19:33:21] API: Language changed via command to: es
+[21-Mar-2025 19:33:21 Europe/Berlin] [2025-03-21 19:33:21] API: Sending response: Cambiado a español. ¿Cómo puedo ayudarte?...
+[21-Mar-2025 19:33:27 Europe/Berlin] [2025-03-21 19:33:27] API: API config loaded successfully
+[21-Mar-2025 19:33:27 Europe/Berlin] [2025-03-21 19:33:27] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[21-Mar-2025 19:33:27 Europe/Berlin] [2025-03-21 19:33:27] API: Processing prompt: chào
+[21-Mar-2025 19:33:27 Europe/Berlin] [2025-03-21 19:33:27] API: Using saved language preference: es
+[21-Mar-2025 19:33:27 Europe/Berlin] [2025-03-21 19:33:27] API: Using language instruction: Por favor responde en español.
+[21-Mar-2025 19:33:27 Europe/Berlin] [2025-03-21 19:33:27] API: Attempting to call Gemini API
+[21-Mar-2025 19:33:27 Europe/Berlin] [2025-03-21 19:33:27] API: Using Gemini model: gemini-2.0-flash
+[21-Mar-2025 19:33:29 Europe/Berlin] [2025-03-21 19:33:29] API: Gemini API response code: 200
+[21-Mar-2025 19:33:29 Europe/Berlin] [2025-03-21 19:33:29] API: Gemini API returned successful response
+[21-Mar-2025 19:33:29 Europe/Berlin] [2025-03-21 19:33:29] API: Sending response: ¡Hola! ¿En qué puedo ayudarte hoy?
+...
+[22-Mar-2025 02:30:54 Europe/Berlin] [2025-03-22 02:30:54] API: API config loaded successfully
+[22-Mar-2025 02:30:54 Europe/Berlin] [2025-03-22 02:30:54] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[22-Mar-2025 02:30:54 Europe/Berlin] [2025-03-22 02:30:54] API: Processing prompt: Tôi cần hỗ trợ kỹ thuật, bạn giúp được không?
+[22-Mar-2025 02:30:54 Europe/Berlin] [2025-03-22 02:30:54] API: Detected language: en
+[22-Mar-2025 02:30:54 Europe/Berlin] [2025-03-22 02:30:54] API: Setting initial preferred language: en
+[22-Mar-2025 02:30:54 Europe/Berlin] [2025-03-22 02:30:54] API: Using language instruction: Please reply in English.
+[22-Mar-2025 02:30:54 Europe/Berlin] [2025-03-22 02:30:54] API: Found in knowledge base: Tất nhiên rồi! Chúng tôi cung cấp hỗ trợ kỹ thuật 24/7 qua email và chat trực ti...
+[22-Mar-2025 02:30:54 Europe/Berlin] [2025-03-22 02:30:54] API: Sending response: Tất nhiên rồi! Chúng tôi cung cấp hỗ trợ kỹ thuật 24/7 qua email và chat trực ti...
+[22-Mar-2025 02:30:58 Europe/Berlin] [2025-03-22 02:30:58] API: API config loaded successfully
+[22-Mar-2025 02:30:58 Europe/Berlin] [2025-03-22 02:30:58] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[22-Mar-2025 02:30:58 Europe/Berlin] [2025-03-22 02:30:58] API: Processing prompt: Tôi có thể tìm tài liệu học ở đâu?
+[22-Mar-2025 02:30:58 Europe/Berlin] [2025-03-22 02:30:58] API: Using saved language preference: en
+[22-Mar-2025 02:30:58 Europe/Berlin] [2025-03-22 02:30:58] API: Using language instruction: Please reply in English.
+[22-Mar-2025 02:30:58 Europe/Berlin] [2025-03-22 02:30:58] API: Attempting to call Gemini API
+[22-Mar-2025 02:30:58 Europe/Berlin] [2025-03-22 02:30:58] API: Using Gemini model: gemini-2.0-flash
+[22-Mar-2025 02:31:00 Europe/Berlin] [2025-03-22 02:31:00] API: Gemini API response code: 200
+[22-Mar-2025 02:31:00 Europe/Berlin] [2025-03-22 02:31:00] API: Gemini API returned successful response
+[22-Mar-2025 02:31:00 Europe/Berlin] [2025-03-22 02:31:00] API: Sending response: You can find learning materials within each course page, typically in sections like "Resources," "Ma...
+[22-Mar-2025 02:31:03 Europe/Berlin] [2025-03-22 02:31:03] API: API config loaded successfully
+[22-Mar-2025 02:31:03 Europe/Berlin] [2025-03-22 02:31:03] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[22-Mar-2025 02:31:03 Europe/Berlin] [2025-03-22 02:31:03] API: Processing prompt: /lang vi
+[22-Mar-2025 02:31:03 Europe/Berlin] [2025-03-22 02:31:03] API: Language changed via command to: vi
+[22-Mar-2025 02:31:03 Europe/Berlin] [2025-03-22 02:31:03] API: Sending response: Đã chuyển sang trả lời bằng tiếng Việt. Tôi có thể giúp gì cho bạn?...
+[22-Mar-2025 02:31:07 Europe/Berlin] [2025-03-22 02:31:07] API: API config loaded successfully
+[22-Mar-2025 02:31:07 Europe/Berlin] [2025-03-22 02:31:07] API: Received request - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Present"}
+[22-Mar-2025 02:31:07 Europe/Berlin] [2025-03-22 02:31:07] API: Processing prompt: Tôi có thể tìm tài liệu học ở đâu?
+[22-Mar-2025 02:31:07 Europe/Berlin] [2025-03-22 02:31:07] API: Using saved language preference: vi
+[22-Mar-2025 02:31:07 Europe/Berlin] [2025-03-22 02:31:07] API: Using language instruction: Hãy trả lời bằng tiếng Việt.
+[22-Mar-2025 02:31:07 Europe/Berlin] [2025-03-22 02:31:07] API: Attempting to call Gemini API
+[22-Mar-2025 02:31:07 Europe/Berlin] [2025-03-22 02:31:07] API: Using Gemini model: gemini-2.0-flash
+[22-Mar-2025 02:31:08 Europe/Berlin] [2025-03-22 02:31:08] API: Gemini API response code: 200
+[22-Mar-2025 02:31:08 Europe/Berlin] [2025-03-22 02:31:08] API: Gemini API returned successful response
+[22-Mar-2025 02:31:08 Europe/Berlin] [2025-03-22 02:31:08] API: Sending response: Bạn có thể tìm tài liệu học tập trên trang web của khóa học, thường nằm tron...
+[22-Mar-2025 09:49:27 Europe/Berlin] 2025-03-22 09:49:27 - Chatbot API request received
+[22-Mar-2025 09:49:27 Europe/Berlin] 2025-03-22 09:49:27 - Invalid request method: GET
+[22-Mar-2025 09:54:24 Europe/Berlin] 2025-03-22 09:54:24 - Chatbot API request received
+[22-Mar-2025 09:54:24 Europe/Berlin] 2025-03-22 09:54:24 - Invalid request method: GET
+[22-Mar-2025 10:01:02 Europe/Berlin] 2025-03-22 10:01:02 - Chatbot API request received
+[22-Mar-2025 10:01:02 Europe/Berlin] 2025-03-22 10:01:02 - Invalid request method: HEAD
+[22-Mar-2025 10:02:43 Europe/Berlin] 2025-03-22 10:02:43 - Chatbot API request received
+[22-Mar-2025 10:02:43 Europe/Berlin] 2025-03-22 10:02:43 - CSRF token validation failed - {"post_token_exists":true,"session_token_exists":true,"session_id":"5604rtc5op1roevosjt5i1mlr3","post_token_prefix":"test...","session_token_prefix":"634170d3bc...","match":"No","post_token_length":4,"session_token_length":64,"cookie_path":"\\\/","cookie_domain":""}
+[22-Mar-2025 10:03:28 Europe/Berlin] 2025-03-22 10:03:28 - Chatbot API request received
+[22-Mar-2025 10:03:28 Europe/Berlin] 2025-03-22 10:03:28 - CSRF token validation failed - {"post_token_exists":true,"session_token_exists":true,"session_id":"3nh9qlhh20mppmj2rqd04r7326","post_token_prefix":"test...","session_token_prefix":"41a6b815d1...","match":"No","post_token_length":4,"session_token_length":64,"cookie_path":"\\\/","cookie_domain":""}
+[22-Mar-2025 10:04:08 Europe/Berlin] 2025-03-22 10:04:08 - Chatbot API request received
+[22-Mar-2025 10:04:08 Europe/Berlin] 2025-03-22 10:04:08 - CSRF token validation failed - {"post_token_exists":true,"session_token_exists":true,"session_id":"li79s0eds98s7t6r5bkuljhji2","post_token_prefix":"test...","session_token_prefix":"5ccec8acbc...","match":"No","post_token_length":4,"session_token_length":64,"cookie_path":"\\\/","cookie_domain":"","referrer":"none","host":"localhost:8080"}
+[22-Mar-2025 10:04:08 Europe/Berlin] 2025-03-22 10:04:08 - Development mode detected, bypassing strict CSRF for debugging
+[22-Mar-2025 10:04:08 Europe/Berlin] 2025-03-22 10:04:08 - Request details - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:04:08 Europe/Berlin] 2025-03-22 10:04:08 - Processing prompt: hello
+[22-Mar-2025 10:04:08 Europe/Berlin] 2025-03-22 10:04:08 - Using language: vi
+[22-Mar-2025 10:04:08 Europe/Berlin] 2025-03-22 10:04:08 - Calling Gemini API
+[22-Mar-2025 10:04:08 Europe/Berlin] 2025-03-22 10:04:08 - Request payload size: 186 bytes
+[22-Mar-2025 10:04:09 Europe/Berlin] 2025-03-22 10:04:09 - Gemini API success: Chào bạn!
+...
+[22-Mar-2025 10:04:55 Europe/Berlin] 2025-03-22 10:04:55 - Chatbot API request received
+[22-Mar-2025 10:04:55 Europe/Berlin] 2025-03-22 10:04:55 - Request details - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:04:55 Europe/Berlin] 2025-03-22 10:04:55 - Processing prompt: Làm sao để liên hệ với giáo viên?
+[22-Mar-2025 10:04:55 Europe/Berlin] 2025-03-22 10:04:55 - Using language: vi
+[22-Mar-2025 10:04:55 Europe/Berlin] 2025-03-22 10:04:55 - Calling Gemini API
+[22-Mar-2025 10:04:55 Europe/Berlin] 2025-03-22 10:04:55 - Request payload size: 254 bytes
+[22-Mar-2025 10:05:00 Europe/Berlin] 2025-03-22 10:05:00 - Gemini API success: Có nhiều cách để liên hệ với giáo viên, tùy thuộc vào quy định của trường ...
+[22-Mar-2025 10:05:06 Europe/Berlin] 2025-03-22 10:05:06 - Chatbot API request received
+[22-Mar-2025 10:05:06 Europe/Berlin] 2025-03-22 10:05:06 - Request details - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:05:06 Europe/Berlin] 2025-03-22 10:05:06 - Processing prompt: Tôi cần hỗ trợ kỹ thuật, bạn giúp được không?
+[22-Mar-2025 10:05:06 Europe/Berlin] 2025-03-22 10:05:06 - Using language: vi
+[22-Mar-2025 10:05:06 Europe/Berlin] 2025-03-22 10:05:06 - Calling Gemini API
+[22-Mar-2025 10:05:06 Europe/Berlin] 2025-03-22 10:05:06 - Request payload size: 286 bytes
+[22-Mar-2025 10:05:08 Europe/Berlin] 2025-03-22 10:05:08 - Gemini API success: Chào bạn, tôi có thể giúp bạn hỗ trợ kỹ thuật trong khả năng của mình. Hãy ...
+[22-Mar-2025 10:05:21 Europe/Berlin] 2025-03-22 10:05:21 - Chatbot API request received
+[22-Mar-2025 10:05:21 Europe/Berlin] 2025-03-22 10:05:21 - Request details - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:05:21 Europe/Berlin] 2025-03-22 10:05:21 - Processing prompt: /lang en
+[22-Mar-2025 10:05:21 Europe/Berlin] 2025-03-22 10:05:21 - Using language: vi
+[22-Mar-2025 10:05:29 Europe/Berlin] 2025-03-22 10:05:29 - Chatbot API request received
+[22-Mar-2025 10:05:29 Europe/Berlin] 2025-03-22 10:05:29 - Request details - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:05:29 Europe/Berlin] 2025-03-22 10:05:29 - Processing prompt: /lang zh
+[22-Mar-2025 10:05:29 Europe/Berlin] 2025-03-22 10:05:29 - Using language: en
+[22-Mar-2025 10:05:31 Europe/Berlin] 2025-03-22 10:05:31 - Chatbot API request received
+[22-Mar-2025 10:05:31 Europe/Berlin] 2025-03-22 10:05:31 - Request details - {"POST":["prompt","csrf_token"],"FILES":"No files","CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:05:31 Europe/Berlin] 2025-03-22 10:05:31 - Processing prompt: /lang es
+[22-Mar-2025 10:05:31 Europe/Berlin] 2025-03-22 10:05:31 - Using language: zh
+[22-Mar-2025 10:05:47 Europe/Berlin] 2025-03-22 10:05:47 - Chatbot API request received
+[22-Mar-2025 10:05:47 Europe/Berlin] 2025-03-22 10:05:47 - Request details - {"POST":["prompt","csrf_token"],"FILES":["documents"],"CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:05:47 Europe/Berlin] 2025-03-22 10:05:47 - Processing prompt: /lang vi
+[22-Mar-2025 10:05:47 Europe/Berlin] 2025-03-22 10:05:47 - Using language: es
+[22-Mar-2025 10:05:56 Europe/Berlin] 2025-03-22 10:05:56 - Chatbot API request received
+[22-Mar-2025 10:05:56 Europe/Berlin] 2025-03-22 10:05:56 - Request details - {"POST":["csrf_token"],"FILES":["documents"],"CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:05:56 Europe/Berlin] 2025-03-22 10:05:56 - Processing prompt: 
+[22-Mar-2025 10:05:56 Europe/Berlin] 2025-03-22 10:05:56 - Using language: vi
+[22-Mar-2025 10:05:56 Europe/Berlin] 2025-03-22 10:05:56 - Calling Gemini API
+[22-Mar-2025 10:05:56 Europe/Berlin] 2025-03-22 10:05:56 - Request payload size: 181 bytes
+[22-Mar-2025 10:05:58 Europe/Berlin] 2025-03-22 10:05:58 - Gemini API success: Chào bạn! Bạn cần tôi giúp gì ạ? Hãy cứ đặt câu hỏi hoặc yêu cầu, tôi s�...
+[22-Mar-2025 10:06:08 Europe/Berlin] 2025-03-22 10:06:08 - Chatbot API request received
+[22-Mar-2025 10:06:08 Europe/Berlin] 2025-03-22 10:06:08 - Request details - {"POST":["csrf_token"],"FILES":["documents"],"CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:06:08 Europe/Berlin] 2025-03-22 10:06:08 - Processing prompt: 
+[22-Mar-2025 10:06:08 Europe/Berlin] 2025-03-22 10:06:08 - Using language: vi
+[22-Mar-2025 10:06:08 Europe/Berlin] 2025-03-22 10:06:08 - Calling Gemini API
+[22-Mar-2025 10:06:08 Europe/Berlin] 2025-03-22 10:06:08 - Request payload size: 181 bytes
+[22-Mar-2025 10:06:09 Europe/Berlin] 2025-03-22 10:06:09 - Gemini API success: Tôi sẵn sàng trả lời bằng tiếng Việt. Bạn có câu hỏi gì không?
+...
+[22-Mar-2025 10:06:17 Europe/Berlin] 2025-03-22 10:06:17 - Chatbot API request received
+[22-Mar-2025 10:06:17 Europe/Berlin] 2025-03-22 10:06:17 - Request details - {"POST":["csrf_token"],"FILES":["documents"],"CSRF":"Validated successfully","IP":"::1"}
+[22-Mar-2025 10:06:17 Europe/Berlin] 2025-03-22 10:06:17 - Processing prompt: 
+[22-Mar-2025 10:06:17 Europe/Berlin] 2025-03-22 10:06:17 - Using language: vi
+[22-Mar-2025 10:06:17 Europe/Berlin] 2025-03-22 10:06:17 - Calling Gemini API
+[22-Mar-2025 10:06:17 Europe/Berlin] 2025-03-22 10:06:17 - Request payload size: 181 bytes
+[22-Mar-2025 10:06:18 Europe/Berlin] 2025-03-22 10:06:18 - Gemini API success: Chào bạn! Tôi ở đây để giúp bạn. Bạn có câu hỏi gì không?
+...
+[22-Mar-2025 10:07:38 Europe/Berlin] 2025-03-22 10:07:38 - Chatbot API request received
+[22-Mar-2025 10:07:38 Europe/Berlin] 2025-03-22 10:07:38 - Invalid request method: GET

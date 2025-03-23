@@ -1,0 +1,2069 @@
+""  
+[21-Mar-2025 21:28:34 Europe/Berlin] PHP Warning:  Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[21-Mar-2025 21:28:34 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 14
+[21-Mar-2025 21:28:34 Europe/Berlin] Đang chuyển hướng đến home.php
+[21-Mar-2025 21:28:34 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 92
+[21-Mar-2025 21:28:45 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[21-Mar-2025 21:28:45 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => a2a28cb51b4c0121573c76691db6ce38eb60373b34ced61885ed1be70ee28e0c
+    [username] => Vuong123
+    [email] => vuong20032604@gmail.com
+    [password] => abc12345
+    [role] => student
+    [register] => 1
+)
+
+[21-Mar-2025 21:28:45 Europe/Berlin] All request data - GET: Array
+(
+    [action] => login
+)
+
+[21-Mar-2025 21:28:45 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[21-Mar-2025 21:28:45 Europe/Berlin] CSRF token in session: SET
+[21-Mar-2025 21:28:45 Europe/Berlin] CSRF token in POST: a2a28cb51b...
+[21-Mar-2025 21:28:45 Europe/Berlin] Login form not properly submitted
+[21-Mar-2025 21:28:45 Europe/Berlin] PHP Warning:  Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[21-Mar-2025 21:28:45 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 14
+[21-Mar-2025 21:28:45 Europe/Berlin] Đang chuyển hướng đến home.php
+[21-Mar-2025 21:28:45 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 92
+[21-Mar-2025 21:37:10 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[21-Mar-2025 21:37:10 Europe/Berlin] Auth controller called with action: 'register', method: POST
+[21-Mar-2025 21:37:10 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => da27b60edf38b60e6a00f8eecea18c17
+    [register] => 1
+    [username] => ada
+    [email] => vuong20031590@gmail.com
+    [password] => abc12345
+    [role] => teacher
+)
+
+[21-Mar-2025 21:37:10 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[21-Mar-2025 21:37:10 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[21-Mar-2025 21:37:10 Europe/Berlin] CSRF token in session: SET
+[21-Mar-2025 21:37:10 Europe/Berlin] CSRF token in POST: da27b60edf...
+[21-Mar-2025 21:37:10 Europe/Berlin] Processing registration form
+[21-Mar-2025 21:37:10 Europe/Berlin] All required registration fields present
+[21-Mar-2025 21:37:10 Europe/Berlin] Username: ada
+[21-Mar-2025 21:37:10 Europe/Berlin] Email: vuong20031590@gmail.com
+[21-Mar-2025 21:37:10 Europe/Berlin] Password length: 8
+[21-Mar-2025 21:37:10 Europe/Berlin] Role: teacher
+[21-Mar-2025 21:37:10 Europe/Berlin] Starting registration process in AuthController
+[21-Mar-2025 21:37:10 Europe/Berlin] CSRF token mismatch - Session: a2a28cb5... vs Provided: da27b60e...
+[21-Mar-2025 21:37:10 Europe/Berlin] CSRF token validation failed
+[21-Mar-2025 21:37:10 Europe/Berlin] POST token: da27b60edf38b60e6a00f8eecea18c17
+[21-Mar-2025 21:37:10 Europe/Berlin] Session token: a2a28cb51b4c0121573c76691db6ce38eb60373b34ced61885ed1be70ee28e0c
+[21-Mar-2025 21:37:10 Europe/Berlin] Chuyển hướng đến: /WebCourses/app/views/product/home.php
+[21-Mar-2025 21:37:10 Europe/Berlin] PHP Warning:  Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[21-Mar-2025 21:37:10 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 14
+[21-Mar-2025 21:37:10 Europe/Berlin] Đang chuyển hướng đến home.php
+[21-Mar-2025 21:37:10 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 92
+[21-Mar-2025 21:37:41 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[21-Mar-2025 21:37:41 Europe/Berlin] Auth controller called with action: 'register', method: POST
+[21-Mar-2025 21:37:41 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => da27b60edf38b60e6a00f8eecea18c17
+    [register] => 1
+    [username] => ada
+    [email] => vuong20031590@gmail.com
+    [password] => abc12345
+    [role] => teacher
+)
+
+[21-Mar-2025 21:37:41 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[21-Mar-2025 21:37:41 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[21-Mar-2025 21:37:41 Europe/Berlin] CSRF token in session: SET
+[21-Mar-2025 21:37:41 Europe/Berlin] CSRF token in POST: da27b60edf...
+[21-Mar-2025 21:37:41 Europe/Berlin] Processing registration form
+[21-Mar-2025 21:37:41 Europe/Berlin] All required registration fields present
+[21-Mar-2025 21:37:41 Europe/Berlin] Username: ada
+[21-Mar-2025 21:37:41 Europe/Berlin] Email: vuong20031590@gmail.com
+[21-Mar-2025 21:37:41 Europe/Berlin] Password length: 8
+[21-Mar-2025 21:37:41 Europe/Berlin] Role: teacher
+[21-Mar-2025 21:37:41 Europe/Berlin] Starting registration process in AuthController
+[21-Mar-2025 21:37:41 Europe/Berlin] CSRF token mismatch - Session: a2a28cb5... vs Provided: da27b60e...
+[21-Mar-2025 21:37:41 Europe/Berlin] CSRF token validation failed
+[21-Mar-2025 21:37:41 Europe/Berlin] POST token: da27b60edf38b60e6a00f8eecea18c17
+[21-Mar-2025 21:37:41 Europe/Berlin] Session token: a2a28cb51b4c0121573c76691db6ce38eb60373b34ced61885ed1be70ee28e0c
+[21-Mar-2025 21:37:41 Europe/Berlin] Chuyển hướng đến: /WebCourses/app/views/product/home.php
+[21-Mar-2025 21:37:41 Europe/Berlin] PHP Warning:  Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[21-Mar-2025 21:37:41 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 14
+[21-Mar-2025 21:37:41 Europe/Berlin] Đang chuyển hướng đến home.php
+[21-Mar-2025 21:37:41 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 92
+[21-Mar-2025 21:43:43 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[21-Mar-2025 21:43:43 Europe/Berlin] Auth controller called with action: 'register', method: POST
+[21-Mar-2025 21:43:43 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 9dbf8220679336444535701352dd75fd
+    [register] => 1
+    [username] => ada
+    [email] => vuong20031590@gmail.com
+    [password] => abc12345
+    [role] => teacher
+)
+
+[21-Mar-2025 21:43:43 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[21-Mar-2025 21:43:43 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[21-Mar-2025 21:43:43 Europe/Berlin] CSRF token in session: SET
+[21-Mar-2025 21:43:43 Europe/Berlin] CSRF token in POST: 9dbf822067...
+[21-Mar-2025 21:43:43 Europe/Berlin] Processing registration form
+[21-Mar-2025 21:43:43 Europe/Berlin] All required registration fields present
+[21-Mar-2025 21:43:43 Europe/Berlin] Username: ada
+[21-Mar-2025 21:43:43 Europe/Berlin] Email: vuong20031590@gmail.com
+[21-Mar-2025 21:43:43 Europe/Berlin] Password length: 8
+[21-Mar-2025 21:43:43 Europe/Berlin] Role: teacher
+[21-Mar-2025 21:43:43 Europe/Berlin] Starting registration process in AuthController
+[21-Mar-2025 21:43:43 Europe/Berlin] CSRF token mismatch - Session: a2a28cb5... vs Provided: 9dbf8220...
+[21-Mar-2025 21:43:43 Europe/Berlin] CSRF token validation failed
+[21-Mar-2025 21:43:43 Europe/Berlin] POST token: 9dbf8220679336444535701352dd75fd
+[21-Mar-2025 21:43:43 Europe/Berlin] Session token: a2a28cb51b4c0121573c76691db6ce38eb60373b34ced61885ed1be70ee28e0c
+[21-Mar-2025 21:43:43 Europe/Berlin] Chuyển hướng đến: /WebCourses/app/views/product/home.php
+[21-Mar-2025 21:43:43 Europe/Berlin] PHP Warning:  Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[21-Mar-2025 21:43:43 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 14
+[21-Mar-2025 21:43:43 Europe/Berlin] Đang chuyển hướng đến home.php
+[21-Mar-2025 21:43:43 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 92
+[21-Mar-2025 21:56:28 Europe/Berlin] PHP Warning:  Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[21-Mar-2025 21:56:28 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 14
+[21-Mar-2025 21:56:28 Europe/Berlin] Đang chuyển hướng đến home.php
+[21-Mar-2025 21:56:28 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 92
+[22-Mar-2025 02:30:10 Europe/Berlin] PHP Warning:  Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[22-Mar-2025 02:30:10 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 14
+[22-Mar-2025 02:30:10 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:30:10 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 92
+[22-Mar-2025 02:45:44 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[22-Mar-2025 02:45:44 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:45:44 Europe/Berlin] Undefined constant "BASE_URL" in D:\PHP\htdocs\WebCourses\app\controllers\AppController.php on line 28
+[22-Mar-2025 02:45:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\PHP\htdocs\WebCourses\index.php:34
+Stack trace:
+#0 [internal function]: {closure}(Object(Error))
+#1 {main}
+  thrown in D:\PHP\htdocs\WebCourses\index.php on line 34
+[22-Mar-2025 02:46:30 Europe/Berlin] PHP Warning:  Constant ROOT_DIR already defined in D:\PHP\htdocs\WebCourses\app\config\config.php on line 13
+[22-Mar-2025 02:46:30 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:46:30 Europe/Berlin] Undefined constant "BASE_URL" in D:\PHP\htdocs\WebCourses\app\controllers\AppController.php on line 28
+[22-Mar-2025 02:46:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\PHP\htdocs\WebCourses\index.php:34
+Stack trace:
+#0 [internal function]: {closure}(Object(Error))
+#1 {main}
+  thrown in D:\PHP\htdocs\WebCourses\index.php on line 34
+[22-Mar-2025 02:47:38 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:47:38 Europe/Berlin] Undefined constant "BASE_URL" in D:\PHP\htdocs\WebCourses\app\controllers\AppController.php on line 28
+[22-Mar-2025 02:47:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\PHP\htdocs\WebCourses\index.php:34
+Stack trace:
+#0 [internal function]: {closure}(Object(Error))
+#1 {main}
+  thrown in D:\PHP\htdocs\WebCourses\index.php on line 34
+[22-Mar-2025 02:48:06 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:48:06 Europe/Berlin] Undefined constant "BASE_URL" in D:\PHP\htdocs\WebCourses\app\controllers\AppController.php on line 28
+[22-Mar-2025 02:48:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\PHP\htdocs\WebCourses\index.php:34
+Stack trace:
+#0 [internal function]: {closure}(Object(Error))
+#1 {main}
+  thrown in D:\PHP\htdocs\WebCourses\index.php on line 34
+[22-Mar-2025 02:50:56 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:50:56 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 92
+[22-Mar-2025 02:52:57 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:52:57 Europe/Berlin] Hành động 'views' không tồn tại trong controller 'AppController'. in D:\PHP\htdocs\WebCourses\index.php on line 107
+[22-Mar-2025 02:56:38 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:56:48 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 02:57:21 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 02:57:21 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 02:57:21 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+    [username] => ada
+    [email] => vuong20031590@gmail.com
+    [password] => abc123456
+    [role] => instructor
+    [register] => 1
+)
+
+[22-Mar-2025 02:57:21 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 02:57:21 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 02:57:21 Europe/Berlin] CSRF token in session: SET
+[22-Mar-2025 02:57:21 Europe/Berlin] CSRF token in POST: 3dde0c9077...
+[22-Mar-2025 02:57:21 Europe/Berlin] Login form not properly submitted
+[22-Mar-2025 03:00:15 Europe/Berlin] File controller 'ViewsController.php' không tồn tại.
+[22-Mar-2025 03:01:00 Europe/Berlin] File controller 'ViewsController.php' không tồn tại.
+[22-Mar-2025 03:07:12 Europe/Berlin] session_start(): Ignoring session_start() because a session is already active in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 2
+[22-Mar-2025 03:07:38 Europe/Berlin] session_start(): Ignoring session_start() because a session is already active in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 2
+[22-Mar-2025 03:08:50 Europe/Berlin] session_start(): Ignoring session_start() because a session is already active in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 2
+[22-Mar-2025 03:16:31 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:16:31 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:16:31 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:16:55 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:16:55 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:16:55 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:17:11 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 03:17:11 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 03:17:11 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+    [username] => ada
+    [email] => vuong20031590@gmail.com
+    [password] => abc12345
+    [role] => instructor
+    [register] => 1
+)
+
+[22-Mar-2025 03:17:11 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 03:17:11 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 03:17:11 Europe/Berlin] CSRF token in session: SET
+[22-Mar-2025 03:17:11 Europe/Berlin] CSRF token in POST: 3dde0c9077...
+[22-Mar-2025 03:17:11 Europe/Berlin] Login endpoint received registration form - redirecting to register action
+[22-Mar-2025 03:17:11 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 03:17:11 Europe/Berlin] Auth controller called with action: 'register', method: GET
+[22-Mar-2025 03:17:11 Europe/Berlin] POST data: Array
+(
+)
+
+[22-Mar-2025 03:17:11 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[22-Mar-2025 03:17:11 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[22-Mar-2025 03:17:11 Europe/Berlin] CSRF token in session: SET
+[22-Mar-2025 03:17:11 Europe/Berlin] Registration form not properly submitted. Method: GET, register field: NOT SET
+[22-Mar-2025 03:17:11 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:17:11 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:17:12 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:22:17 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:22:17 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:22:17 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:22:37 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 03:22:37 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 03:22:37 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+    [username] => ada
+    [email] => vuong20031590@gmail.com
+    [password] => abc123456
+    [role] => instructor
+    [register] => 1
+)
+
+[22-Mar-2025 03:22:37 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 03:22:37 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 03:22:37 Europe/Berlin] CSRF token in session: 3dde0c9077...
+[22-Mar-2025 03:22:37 Europe/Berlin] CSRF token in POST: 3dde0c9077...
+[22-Mar-2025 03:22:37 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 03:22:37 Europe/Berlin] Session token: 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+[22-Mar-2025 03:22:37 Europe/Berlin] POST token: 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+[22-Mar-2025 03:22:37 Europe/Berlin] Login endpoint received registration form - redirecting to register action
+[22-Mar-2025 03:22:37 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 03:22:37 Europe/Berlin] Auth controller called with action: 'register', method: GET
+[22-Mar-2025 03:22:37 Europe/Berlin] POST data: Array
+(
+)
+
+[22-Mar-2025 03:22:37 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[22-Mar-2025 03:22:37 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[22-Mar-2025 03:22:37 Europe/Berlin] CSRF token in session: 3dde0c9077...
+[22-Mar-2025 03:22:37 Europe/Berlin] No CSRF token in POST data
+[22-Mar-2025 03:22:37 Europe/Berlin] Registration form not properly submitted. Method: GET, register field: NOT SET
+[22-Mar-2025 03:22:37 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:22:37 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:22:37 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:33:13 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:33:13 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:33:13 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:33:32 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 03:33:32 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 03:33:32 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+    [username] => ada
+    [email] => vuong20031590@gmail.com
+    [password] => abc123456
+    [role] => instructor
+    [register] => 1
+)
+
+[22-Mar-2025 03:33:32 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 03:33:32 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 03:33:32 Europe/Berlin] CSRF token in session: 3dde0c9077...
+[22-Mar-2025 03:33:32 Europe/Berlin] CSRF token in POST: 3dde0c9077...
+[22-Mar-2025 03:33:32 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 03:33:32 Europe/Berlin] Session token: 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+[22-Mar-2025 03:33:32 Europe/Berlin] POST token: 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+[22-Mar-2025 03:33:32 Europe/Berlin] Login endpoint received registration form - redirecting to register action
+[22-Mar-2025 03:33:32 Europe/Berlin] Saving registration data to session: Array
+(
+    [csrf_token] => 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+    [username] => ada
+    [email] => vuong20031590@gmail.com
+    [password] => abc123456
+    [role] => instructor
+    [register] => 1
+)
+
+[22-Mar-2025 03:33:32 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 03:33:32 Europe/Berlin] Auth controller called with action: 'register', method: GET
+[22-Mar-2025 03:33:32 Europe/Berlin] POST data: Array
+(
+)
+
+[22-Mar-2025 03:33:32 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[22-Mar-2025 03:33:32 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[22-Mar-2025 03:33:32 Europe/Berlin] CSRF token in session: 3dde0c9077...
+[22-Mar-2025 03:33:32 Europe/Berlin] No CSRF token in POST data
+[22-Mar-2025 03:33:32 Europe/Berlin] Processing registration form from session data
+[22-Mar-2025 03:33:32 Europe/Berlin] All required registration fields present
+[22-Mar-2025 03:33:32 Europe/Berlin] Username: ada
+[22-Mar-2025 03:33:32 Europe/Berlin] Email: vuong20031590@gmail.com
+[22-Mar-2025 03:33:32 Europe/Berlin] Password length: 9
+[22-Mar-2025 03:33:32 Europe/Berlin] Role: instructor
+[22-Mar-2025 03:33:32 Europe/Berlin] Starting registration process in AuthController
+[22-Mar-2025 03:33:32 Europe/Berlin] Calling userModel->register() with username=ada, email=vuong20031590@gmail.com, role=instructor
+[22-Mar-2025 03:33:32 Europe/Berlin] User Model - Register: Starting registration for ada, vuong20031590@gmail.com, instructor
+[22-Mar-2025 03:33:32 Europe/Berlin] User Model - Finding correct table name
+[22-Mar-2025 03:33:32 Europe/Berlin] User Model - Found actual table name: users
+[22-Mar-2025 03:33:32 Europe/Berlin] User Model - Check SQL: SELECT * FROM users WHERE username = ? OR email = ?
+[22-Mar-2025 03:33:32 Europe/Berlin] User Model - Insert SQL: INSERT INTO users (username, email, password, role, created_at) VALUES (?, ?, ?, ?, NOW()) with role=instructor
+[22-Mar-2025 03:33:32 Europe/Berlin] User Model - User registered successfully with ID: 6
+[22-Mar-2025 03:33:32 Europe/Berlin] User Model - Verified user exists with ID: 6
+[22-Mar-2025 03:33:32 Europe/Berlin] Register result: Array
+(
+    [success] => 1
+    [message] => Đăng ký thành công!
+    [user_id] => 6
+)
+
+[22-Mar-2025 03:33:32 Europe/Berlin] Admin query: SELECT user_id FROM users WHERE role = 'admin' LIMIT 1
+[22-Mar-2025 03:33:32 Europe/Berlin] Sending notification to admin (ID: 1)
+[22-Mar-2025 03:33:32 Europe/Berlin] Notification result: Array
+(
+    [success] => 1
+    [notification_id] => 1
+    [message] => Thông báo đã được tạo!
+)
+
+[22-Mar-2025 03:33:32 Europe/Berlin] Registration process complete, redirecting to home.php
+[22-Mar-2025 03:33:32 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/home.php
+[22-Mar-2025 03:33:32 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:33:32 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:33:32 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:33:54 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 03:33:54 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 03:33:54 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 03:33:54 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 03:33:54 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 03:33:54 Europe/Berlin] CSRF token in session: 3dde0c9077...
+[22-Mar-2025 03:33:54 Europe/Berlin] CSRF token in POST: 3dde0c9077...
+[22-Mar-2025 03:33:54 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 03:33:54 Europe/Berlin] Session token: 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+[22-Mar-2025 03:33:54 Europe/Berlin] POST token: 3dde0c90776a0cf7a6833d6463e4456c14149d9ca2f140f10b58cd3661b60cbc
+[22-Mar-2025 03:33:54 Europe/Berlin] Processing login form
+[22-Mar-2025 03:33:54 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 03:33:54 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 03:33:54 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 03:33:54 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 03:33:54 Europe/Berlin] Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\views\product\instructor_dashboard.php on line 2
+[22-Mar-2025 03:33:54 Europe/Berlin] File controller 'ErrorphpController.php' không tồn tại.
+[22-Mar-2025 03:38:13 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:38:13 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:38:14 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:38:16 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:38:16 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:38:16 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:38:20 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:38:20 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:38:20 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:38:24 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/home.php
+[22-Mar-2025 03:38:24 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:38:24 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:38:24 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:38:32 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 03:38:32 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 03:38:32 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 5d6e0febd6feb1c6396cbf34a3a286c9ba0426e23881e15b8199bc3b58332147
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 03:38:32 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 03:38:32 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 03:38:32 Europe/Berlin] CSRF token in session: 5d6e0febd6...
+[22-Mar-2025 03:38:32 Europe/Berlin] CSRF token in POST: 5d6e0febd6...
+[22-Mar-2025 03:38:32 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 03:38:32 Europe/Berlin] Session token: 5d6e0febd6feb1c6396cbf34a3a286c9ba0426e23881e15b8199bc3b58332147
+[22-Mar-2025 03:38:32 Europe/Berlin] POST token: 5d6e0febd6feb1c6396cbf34a3a286c9ba0426e23881e15b8199bc3b58332147
+[22-Mar-2025 03:38:32 Europe/Berlin] Processing login form
+[22-Mar-2025 03:38:32 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 03:38:32 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 03:38:32 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 03:38:32 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 03:48:09 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 03:48:09 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 03:48:09 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 03:48:11 Europe/Berlin] session_start(): Ignoring session_start() because a session is already active in D:\PHP\htdocs\WebCourses\app\controllers\AuthController.php on line 300
+[22-Mar-2025 03:48:11 Europe/Berlin] File controller 'ErrorphpController.php' không tồn tại.
+[22-Mar-2025 04:06:01 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:06:01 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:06:01 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:06:25 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:06:25 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:06:25 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:06:39 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 04:06:39 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 04:06:39 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 1c8d84e93fe8d274b4b86556b42ef2001e9a8a0834aa9898234e25e12a21cc8f
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 04:06:39 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 04:06:39 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 04:06:39 Europe/Berlin] CSRF token in session: 1c8d84e93f...
+[22-Mar-2025 04:06:39 Europe/Berlin] CSRF token in POST: 1c8d84e93f...
+[22-Mar-2025 04:06:39 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 04:06:39 Europe/Berlin] Session token: 1c8d84e93fe8d274b4b86556b42ef2001e9a8a0834aa9898234e25e12a21cc8f
+[22-Mar-2025 04:06:39 Europe/Berlin] POST token: 1c8d84e93fe8d274b4b86556b42ef2001e9a8a0834aa9898234e25e12a21cc8f
+[22-Mar-2025 04:06:39 Europe/Berlin] Processing login form
+[22-Mar-2025 04:06:39 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 04:06:39 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 04:06:39 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 04:06:39 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 04:07:11 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:07:11 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:07:12 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:07:26 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:07:26 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:07:26 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:07:34 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 04:07:34 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 04:07:34 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 084fc96cb5d9e50c6bddcfce0775ecbde168d39e45661d160c4b1a1e696d1c58
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 04:07:34 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 04:07:34 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 04:07:34 Europe/Berlin] CSRF token in session: 084fc96cb5...
+[22-Mar-2025 04:07:34 Europe/Berlin] CSRF token in POST: 084fc96cb5...
+[22-Mar-2025 04:07:34 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 04:07:34 Europe/Berlin] Session token: 084fc96cb5d9e50c6bddcfce0775ecbde168d39e45661d160c4b1a1e696d1c58
+[22-Mar-2025 04:07:34 Europe/Berlin] POST token: 084fc96cb5d9e50c6bddcfce0775ecbde168d39e45661d160c4b1a1e696d1c58
+[22-Mar-2025 04:07:34 Europe/Berlin] Processing login form
+[22-Mar-2025 04:07:34 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 04:07:34 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 04:07:34 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 04:07:34 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 04:07:38 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:07:38 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:07:38 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:07:45 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 04:07:45 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 04:07:45 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 8fde287bfe0a3828574b87d29916d7d60d40fcb3eba1027dc60c8125e1f4fb0b
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 04:07:45 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 04:07:45 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 04:07:45 Europe/Berlin] CSRF token in session: 8fde287bfe...
+[22-Mar-2025 04:07:45 Europe/Berlin] CSRF token in POST: 8fde287bfe...
+[22-Mar-2025 04:07:45 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 04:07:45 Europe/Berlin] Session token: 8fde287bfe0a3828574b87d29916d7d60d40fcb3eba1027dc60c8125e1f4fb0b
+[22-Mar-2025 04:07:45 Europe/Berlin] POST token: 8fde287bfe0a3828574b87d29916d7d60d40fcb3eba1027dc60c8125e1f4fb0b
+[22-Mar-2025 04:07:45 Europe/Berlin] Processing login form
+[22-Mar-2025 04:07:45 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 04:07:45 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 04:07:45 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 04:07:45 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 04:08:01 Europe/Berlin] Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\views\product\create_course.php on line 2
+[22-Mar-2025 04:08:01 Europe/Berlin] File controller 'ErrorphpController.php' không tồn tại.
+[22-Mar-2025 04:10:15 Europe/Berlin] Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\views\product\create_course.php on line 2
+[22-Mar-2025 04:10:15 Europe/Berlin] File controller 'ErrorphpController.php' không tồn tại.
+[22-Mar-2025 04:12:54 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:12:54 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:12:54 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:13:03 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 04:13:03 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 04:13:03 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => b7a53c41ad6b37344ebc75379007648593cdf255bd051c9930ce015d6f2f4b69
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 04:13:03 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 04:13:03 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 04:13:03 Europe/Berlin] CSRF token in session: b7a53c41ad...
+[22-Mar-2025 04:13:03 Europe/Berlin] CSRF token in POST: b7a53c41ad...
+[22-Mar-2025 04:13:03 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 04:13:03 Europe/Berlin] Session token: b7a53c41ad6b37344ebc75379007648593cdf255bd051c9930ce015d6f2f4b69
+[22-Mar-2025 04:13:03 Europe/Berlin] POST token: b7a53c41ad6b37344ebc75379007648593cdf255bd051c9930ce015d6f2f4b69
+[22-Mar-2025 04:13:03 Europe/Berlin] Processing login form
+[22-Mar-2025 04:13:03 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 04:13:03 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 04:13:03 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 04:13:03 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 04:15:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:15:14 Europe/Berlin] Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\views\product\course_management.php on line 2
+[22-Mar-2025 04:15:14 Europe/Berlin] File controller 'ErrorController.php' không tồn tại.
+[22-Mar-2025 04:18:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:18:16 Europe/Berlin] Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\views\product\course_management.php on line 2
+[22-Mar-2025 04:19:11 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:19:11 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:19:12 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:19:14 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:19:14 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:19:14 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:19:18 Europe/Berlin] session_start(): Ignoring session_start() because a session is already active in D:\PHP\htdocs\WebCourses\app\controllers\AuthController.php on line 300
+[22-Mar-2025 04:19:30 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:19:30 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:19:30 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:19:32 Europe/Berlin] session_start(): Ignoring session_start() because a session is already active in D:\PHP\htdocs\WebCourses\app\controllers\AuthController.php on line 300
+[22-Mar-2025 04:20:04 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:20:04 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:20:04 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:20:05 Europe/Berlin] session_start(): Ignoring session_start() because a session is already active in D:\PHP\htdocs\WebCourses\app\controllers\AuthController.php on line 300
+[22-Mar-2025 04:20:48 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:20:48 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:20:48 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:20:49 Europe/Berlin] User logged out successfully
+[22-Mar-2025 04:20:49 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 04:20:49 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 04:20:49 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 04:21:15 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 04:21:15 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 04:21:15 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => a3a6e001350bf0fb447742b3e2d1ca4784fca1c53a3ad9824e6618ed9c0cb088
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 04:21:15 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 04:21:15 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 04:21:15 Europe/Berlin] CSRF token in session: a3a6e00135...
+[22-Mar-2025 04:21:15 Europe/Berlin] CSRF token in POST: a3a6e00135...
+[22-Mar-2025 04:21:15 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 04:21:15 Europe/Berlin] Session token: a3a6e001350bf0fb447742b3e2d1ca4784fca1c53a3ad9824e6618ed9c0cb088
+[22-Mar-2025 04:21:15 Europe/Berlin] POST token: a3a6e001350bf0fb447742b3e2d1ca4784fca1c53a3ad9824e6618ed9c0cb088
+[22-Mar-2025 04:21:15 Europe/Berlin] Processing login form
+[22-Mar-2025 04:21:15 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 04:21:15 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 04:21:15 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 04:21:15 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 04:21:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:24:10 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:24:12 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:26:59 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:27:31 Europe/Berlin] Call to a member function fetch_assoc() on bool in D:\PHP\htdocs\WebCourses\app\views\product\course_management.php on line 73
+[22-Mar-2025 04:29:28 Europe/Berlin] Call to a member function fetch_assoc() on bool in D:\PHP\htdocs\WebCourses\app\views\product\course_management.php on line 73
+[22-Mar-2025 04:29:32 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:29:42 Europe/Berlin] Call to a member function fetch_assoc() on bool in D:\PHP\htdocs\WebCourses\app\views\product\course_management.php on line 73
+[22-Mar-2025 04:31:42 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:31:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:31:55 Europe/Berlin] The number of elements in the type definition string must match the number of bind variables in D:\PHP\htdocs\WebCourses\app\views\product\course_management.php on line 81
+[22-Mar-2025 04:33:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:34:24 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:34:28 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:34:37 Europe/Berlin] The number of elements in the type definition string must match the number of bind variables in D:\PHP\htdocs\WebCourses\app\views\product\course_management.php on line 81
+[22-Mar-2025 04:36:35 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:36:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:43:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:45:50 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 04:59:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 05:00:06 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 05:00:12 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 05:00:13 Europe/Berlin] User logged out successfully
+[22-Mar-2025 05:00:13 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:00:13 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:00:13 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:00:22 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 05:00:22 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 05:00:22 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 893eb95246d19852c0416f67b13c0574f39d63c071eb3bba2b444740a2634a7f
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 05:00:22 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 05:00:22 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 05:00:22 Europe/Berlin] CSRF token in session: 893eb95246...
+[22-Mar-2025 05:00:22 Europe/Berlin] CSRF token in POST: 893eb95246...
+[22-Mar-2025 05:00:22 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 05:00:22 Europe/Berlin] Session token: 893eb95246d19852c0416f67b13c0574f39d63c071eb3bba2b444740a2634a7f
+[22-Mar-2025 05:00:22 Europe/Berlin] POST token: 893eb95246d19852c0416f67b13c0574f39d63c071eb3bba2b444740a2634a7f
+[22-Mar-2025 05:00:22 Europe/Berlin] Processing login form
+[22-Mar-2025 05:00:22 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 05:00:22 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 05:00:22 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 05:00:22 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 05:00:22 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 05:00:30 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 05:01:49 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 05:02:11 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 05:02:25 Europe/Berlin] User logged out successfully
+[22-Mar-2025 05:02:25 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:02:25 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:02:25 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:03:00 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:03:00 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:03:00 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:03:30 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 05:03:30 Europe/Berlin] Auth controller called with action: 'register', method: POST
+[22-Mar-2025 05:03:30 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 15708af6a7fcae707899f11463e177dc362cae8817a4b56f94db77a819abb2bd
+    [username] => Vuong123
+    [email] => vuong20032604@gmail.com
+    [password] => abc123456
+    [role] => student
+    [register] => 1
+)
+
+[22-Mar-2025 05:03:30 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[22-Mar-2025 05:03:30 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[22-Mar-2025 05:03:30 Europe/Berlin] CSRF token in session: 15708af6a7...
+[22-Mar-2025 05:03:30 Europe/Berlin] CSRF token in POST: 15708af6a7...
+[22-Mar-2025 05:03:30 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 05:03:30 Europe/Berlin] Session token: 15708af6a7fcae707899f11463e177dc362cae8817a4b56f94db77a819abb2bd
+[22-Mar-2025 05:03:30 Europe/Berlin] POST token: 15708af6a7fcae707899f11463e177dc362cae8817a4b56f94db77a819abb2bd
+[22-Mar-2025 05:03:30 Europe/Berlin] Processing registration form from direct POST
+[22-Mar-2025 05:03:30 Europe/Berlin] All required registration fields present
+[22-Mar-2025 05:03:30 Europe/Berlin] Username: Vuong123
+[22-Mar-2025 05:03:30 Europe/Berlin] Email: vuong20032604@gmail.com
+[22-Mar-2025 05:03:30 Europe/Berlin] Password length: 9
+[22-Mar-2025 05:03:30 Europe/Berlin] Role: student
+[22-Mar-2025 05:03:30 Europe/Berlin] Starting registration process in AuthController
+[22-Mar-2025 05:03:30 Europe/Berlin] Calling userModel->register() with username=Vuong123, email=vuong20032604@gmail.com, role=student
+[22-Mar-2025 05:03:30 Europe/Berlin] User Model - Register: Starting registration for Vuong123, vuong20032604@gmail.com, student
+[22-Mar-2025 05:03:30 Europe/Berlin] User Model - Finding correct table name
+[22-Mar-2025 05:03:30 Europe/Berlin] User Model - Found actual table name: users
+[22-Mar-2025 05:03:30 Europe/Berlin] User Model - Check SQL: SELECT * FROM users WHERE username = ? OR email = ?
+[22-Mar-2025 05:03:30 Europe/Berlin] User Model - Insert SQL: INSERT INTO users (username, email, password, role, created_at) VALUES (?, ?, ?, ?, NOW()) with role=student
+[22-Mar-2025 05:03:30 Europe/Berlin] User Model - User registered successfully with ID: 7
+[22-Mar-2025 05:03:30 Europe/Berlin] User Model - Verified user exists with ID: 7
+[22-Mar-2025 05:03:30 Europe/Berlin] Register result: Array
+(
+    [success] => 1
+    [message] => Đăng ký thành công!
+    [user_id] => 7
+)
+
+[22-Mar-2025 05:03:30 Europe/Berlin] Admin query: SELECT user_id FROM users WHERE role = 'admin' LIMIT 1
+[22-Mar-2025 05:03:30 Europe/Berlin] Sending notification to admin (ID: 1)
+[22-Mar-2025 05:03:30 Europe/Berlin] Notification result: Array
+(
+    [success] => 1
+    [notification_id] => 2
+    [message] => Thông báo đã được tạo!
+)
+
+[22-Mar-2025 05:03:30 Europe/Berlin] Registration process complete, redirecting to home.php
+[22-Mar-2025 05:03:30 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/home.php
+[22-Mar-2025 05:03:30 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:03:30 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:03:30 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:03:37 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 05:03:37 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 05:03:37 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 15708af6a7fcae707899f11463e177dc362cae8817a4b56f94db77a819abb2bd
+    [username] => Vuong123
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 05:03:37 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 05:03:37 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 05:03:37 Europe/Berlin] CSRF token in session: 15708af6a7...
+[22-Mar-2025 05:03:37 Europe/Berlin] CSRF token in POST: 15708af6a7...
+[22-Mar-2025 05:03:37 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 05:03:37 Europe/Berlin] Session token: 15708af6a7fcae707899f11463e177dc362cae8817a4b56f94db77a819abb2bd
+[22-Mar-2025 05:03:37 Europe/Berlin] POST token: 15708af6a7fcae707899f11463e177dc362cae8817a4b56f94db77a819abb2bd
+[22-Mar-2025 05:03:37 Europe/Berlin] Processing login form
+[22-Mar-2025 05:03:37 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 05:03:37 Europe/Berlin] Attempting login for user: Vuong123
+[22-Mar-2025 05:03:37 Europe/Berlin] Login successful for username Vuong123 with role student
+[22-Mar-2025 05:03:37 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/student_dashboard.php
+[22-Mar-2025 05:03:39 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:03:39 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:03:39 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:03:42 Europe/Berlin] Constant BASE_URL already defined in D:\PHP\htdocs\WebCourses\app\views\product\enroll.php on line 2
+[22-Mar-2025 05:03:55 Europe/Berlin] User logged out successfully
+[22-Mar-2025 05:03:55 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:03:55 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:03:55 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:04:09 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:04:09 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:04:09 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:11:40 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:11:41 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:11:41 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:52:16 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:52:16 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:52:17 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:56:19 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:56:19 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:56:19 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 05:59:37 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 05:59:37 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 05:59:38 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 06:00:31 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:00:31 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:00:31 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 06:03:13 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:03:13 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:03:13 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 06:03:25 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 06:03:25 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 06:03:25 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 89ee774b4212a13cd8496fad5963edb8ec835b5d76777b0a84f626cbda840117
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 06:03:25 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 06:03:25 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 06:03:25 Europe/Berlin] CSRF token in session: 89ee774b42...
+[22-Mar-2025 06:03:25 Europe/Berlin] CSRF token in POST: 89ee774b42...
+[22-Mar-2025 06:03:25 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 06:03:25 Europe/Berlin] Session token: 89ee774b4212a13cd8496fad5963edb8ec835b5d76777b0a84f626cbda840117
+[22-Mar-2025 06:03:25 Europe/Berlin] POST token: 89ee774b4212a13cd8496fad5963edb8ec835b5d76777b0a84f626cbda840117
+[22-Mar-2025 06:03:25 Europe/Berlin] Processing login form
+[22-Mar-2025 06:03:25 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 06:03:25 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 06:03:25 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 06:03:25 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 06:03:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:03:29 Europe/Berlin] User logged out successfully
+[22-Mar-2025 06:03:29 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:03:29 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:03:29 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 06:05:09 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:05:09 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:05:10 Europe/Berlin] View not found: D:\PHP\htdocs\WebCourses/app/views/app/views/uploads/congnghein3d.jpg.php
+[22-Mar-2025 06:18:38 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:18:38 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:18:38 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:18:38 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:18:38 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:24:47 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:24:47 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:24:47 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:24:47 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:24:47 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:36:18 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:36:18 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:36:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:36:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:36:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:38:17 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:38:17 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:38:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:38:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:38:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:47:11 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:47:12 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:47:12 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:47:12 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:47:12 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:47:54 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 06:47:54 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 06:47:54 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 730f3e68d868174b9bfd88eb6911d1d76663f9c1711a034c588078a59cedf869
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 06:47:54 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 06:47:54 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 06:47:54 Europe/Berlin] CSRF token in session: 730f3e68d8...
+[22-Mar-2025 06:47:54 Europe/Berlin] CSRF token in POST: 730f3e68d8...
+[22-Mar-2025 06:47:54 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 06:47:54 Europe/Berlin] Session token: 730f3e68d868174b9bfd88eb6911d1d76663f9c1711a034c588078a59cedf869
+[22-Mar-2025 06:47:54 Europe/Berlin] POST token: 730f3e68d868174b9bfd88eb6911d1d76663f9c1711a034c588078a59cedf869
+[22-Mar-2025 06:47:54 Europe/Berlin] Processing login form
+[22-Mar-2025 06:47:54 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 06:47:54 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 06:47:54 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 06:47:54 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 06:47:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:48:15 Europe/Berlin] User logged out successfully
+[22-Mar-2025 06:48:15 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 06:48:15 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 06:48:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:48:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 06:48:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:07:53 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:07:53 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:07:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:07:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:07:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:08:42 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:08:42 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:08:42 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:08:42 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:08:42 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:10:45 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:10:45 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:10:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:10:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:10:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:10:48 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:10:48 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:10:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:10:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:10:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:11:18 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:11:18 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:11:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:11:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:11:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:11:41 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:11:41 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:11:42 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:11:42 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:11:42 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:11 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:12:11 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:12:11 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:11 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:11 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:43 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:12:43 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:12:43 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:43 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:43 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:46 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:12:46 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:12:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:57 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:12:57 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:12:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:12:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:13:41 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:13:41 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:13:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:13:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:13:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:25:33 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:25:33 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:26:12 Europe/Berlin] File controller 'LoginController.php' không tồn tại.
+[22-Mar-2025 07:26:19 Europe/Berlin] File controller 'CoursesController.php' không tồn tại.
+[22-Mar-2025 07:27:00 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:27:00 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:27:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:04 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:27:04 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:27:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:27:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:28:31 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 07:28:31 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 07:28:31 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 0d2fd8e8012dfbc36ad871df0500350f2533be543c3df0a1f2eea3464c8e74be
+    [username] => ada
+    [password] => abc123456
+    [login] => 1
+)
+
+[22-Mar-2025 07:28:31 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 07:28:31 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 07:28:31 Europe/Berlin] CSRF token in session: 0d2fd8e801...
+[22-Mar-2025 07:28:31 Europe/Berlin] CSRF token in POST: 0d2fd8e801...
+[22-Mar-2025 07:28:31 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 07:28:31 Europe/Berlin] Session token: 0d2fd8e8012dfbc36ad871df0500350f2533be543c3df0a1f2eea3464c8e74be
+[22-Mar-2025 07:28:31 Europe/Berlin] POST token: 0d2fd8e8012dfbc36ad871df0500350f2533be543c3df0a1f2eea3464c8e74be
+[22-Mar-2025 07:28:31 Europe/Berlin] Processing login form
+[22-Mar-2025 07:28:31 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 07:28:31 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 07:28:31 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 07:28:31 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 07:28:31 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:39 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:49 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:52 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:57 Europe/Berlin] User logged out successfully
+[22-Mar-2025 07:29:57 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:29:57 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:29:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:29:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:32:07 Europe/Berlin] File controller 'LoginController.php' không tồn tại.
+[22-Mar-2025 07:32:23 Europe/Berlin] File controller 'CoursesController.php' không tồn tại.
+[22-Mar-2025 07:41:51 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:41:51 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:41:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:41:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:41:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:41:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:41:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:41:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:47:34 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:47:34 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:47:34 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:47:34 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:47:34 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:47:34 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:47:34 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:47:34 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:48:05 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 07:48:05 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 07:48:05 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => fabb77980283712df72538da089c4f1a4b1dcb005a540cd9dd076dce829eb151
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 07:48:05 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 07:48:05 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 07:48:05 Europe/Berlin] CSRF token in session: fabb779802...
+[22-Mar-2025 07:48:05 Europe/Berlin] CSRF token in POST: fabb779802...
+[22-Mar-2025 07:48:05 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 07:48:05 Europe/Berlin] Session token: fabb77980283712df72538da089c4f1a4b1dcb005a540cd9dd076dce829eb151
+[22-Mar-2025 07:48:05 Europe/Berlin] POST token: fabb77980283712df72538da089c4f1a4b1dcb005a540cd9dd076dce829eb151
+[22-Mar-2025 07:48:05 Europe/Berlin] Processing login form
+[22-Mar-2025 07:48:05 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 07:48:05 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 07:48:05 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 07:48:05 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 07:48:05 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 07:49:45 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:49:45 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:49:45 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 07:49:45 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 07:49:54 Europe/Berlin] User logged out successfully
+[22-Mar-2025 07:49:54 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:49:54 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:49:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:49:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:49:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:49:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:49:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:49:54 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:50:06 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 07:50:06 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 07:50:06 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 18b6103bd7fab4c2f1f010dd25cdaa52dc8e1142b44595fb618415d495ac9f34
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 07:50:06 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 07:50:06 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 07:50:06 Europe/Berlin] CSRF token in session: 18b6103bd7...
+[22-Mar-2025 07:50:06 Europe/Berlin] CSRF token in POST: 18b6103bd7...
+[22-Mar-2025 07:50:06 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 07:50:06 Europe/Berlin] Session token: 18b6103bd7fab4c2f1f010dd25cdaa52dc8e1142b44595fb618415d495ac9f34
+[22-Mar-2025 07:50:06 Europe/Berlin] POST token: 18b6103bd7fab4c2f1f010dd25cdaa52dc8e1142b44595fb618415d495ac9f34
+[22-Mar-2025 07:50:06 Europe/Berlin] Processing login form
+[22-Mar-2025 07:50:06 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 07:50:06 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 07:50:06 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 07:50:06 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 07:50:06 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 07:50:16 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 07:50:16 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 07:50:16 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 18b6103bd7fab4c2f1f010dd25cdaa52dc8e1142b44595fb618415d495ac9f34
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 07:50:16 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 07:50:16 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 07:50:16 Europe/Berlin] CSRF token in session: 18b6103bd7...
+[22-Mar-2025 07:50:16 Europe/Berlin] CSRF token in POST: 18b6103bd7...
+[22-Mar-2025 07:50:16 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 07:50:16 Europe/Berlin] Session token: 18b6103bd7fab4c2f1f010dd25cdaa52dc8e1142b44595fb618415d495ac9f34
+[22-Mar-2025 07:50:16 Europe/Berlin] POST token: 18b6103bd7fab4c2f1f010dd25cdaa52dc8e1142b44595fb618415d495ac9f34
+[22-Mar-2025 07:50:16 Europe/Berlin] Processing login form
+[22-Mar-2025 07:50:16 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 07:50:16 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 07:50:16 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 07:50:16 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 07:50:16 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 07:50:41 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:50:41 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:50:41 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 07:50:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 07:50:47 Europe/Berlin] User logged out successfully
+[22-Mar-2025 07:50:47 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:50:47 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:50:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:50:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:50:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:50:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:50:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:50:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:50:56 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 07:50:56 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 07:50:56 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 9cf0d8aaad5e5d2773b634f3b1c551b7ca11110b94cc223df818612ca68ec9e1
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 07:50:56 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 07:50:56 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 07:50:56 Europe/Berlin] CSRF token in session: 9cf0d8aaad...
+[22-Mar-2025 07:50:56 Europe/Berlin] CSRF token in POST: 9cf0d8aaad...
+[22-Mar-2025 07:50:56 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 07:50:56 Europe/Berlin] Session token: 9cf0d8aaad5e5d2773b634f3b1c551b7ca11110b94cc223df818612ca68ec9e1
+[22-Mar-2025 07:50:56 Europe/Berlin] POST token: 9cf0d8aaad5e5d2773b634f3b1c551b7ca11110b94cc223df818612ca68ec9e1
+[22-Mar-2025 07:50:56 Europe/Berlin] Processing login form
+[22-Mar-2025 07:50:56 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 07:50:56 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 07:50:56 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 07:50:56 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 07:50:56 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 07:51:13 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:51:13 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:51:13 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 07:51:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 07:51:14 Europe/Berlin] User logged out successfully
+[22-Mar-2025 07:51:14 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:51:14 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:51:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:15 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:51:15 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:51:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:51:27 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 07:51:27 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 07:51:27 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => d62b4a7515ad6545fcaba0c5939bf83b3ffde48518976bd84d0325c398539eff
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 07:51:27 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 07:51:27 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 07:51:27 Europe/Berlin] CSRF token in session: d62b4a7515...
+[22-Mar-2025 07:51:27 Europe/Berlin] CSRF token in POST: d62b4a7515...
+[22-Mar-2025 07:51:27 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 07:51:27 Europe/Berlin] Session token: d62b4a7515ad6545fcaba0c5939bf83b3ffde48518976bd84d0325c398539eff
+[22-Mar-2025 07:51:27 Europe/Berlin] POST token: d62b4a7515ad6545fcaba0c5939bf83b3ffde48518976bd84d0325c398539eff
+[22-Mar-2025 07:51:27 Europe/Berlin] Processing login form
+[22-Mar-2025 07:51:27 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 07:51:27 Europe/Berlin] Processing login in AuthController
+[22-Mar-2025 07:51:27 Europe/Berlin] Attempting login for user: ada
+[22-Mar-2025 07:51:27 Europe/Berlin] Login successful for username ada with role instructor
+[22-Mar-2025 07:51:27 Europe/Berlin] Chuyển hướng đến: //localhost:8080\WebCourses/app/views/product/instructor_dashboard.php
+[22-Mar-2025 07:58:48 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:58:48 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:58:48 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 07:58:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 07:58:53 Europe/Berlin] User logged out successfully
+[22-Mar-2025 07:58:53 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:58:53 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:58:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:54 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 07:58:54 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 07:58:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:58:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 07:59:04 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 07:59:04 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 07:59:04 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => c9f6f327bc7b897d8b1845c7fc40e6ecfcf9c814e6b6ab16b96b88aca64b56f9
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 07:59:04 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 07:59:04 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 07:59:04 Europe/Berlin] CSRF token in session: c9f6f327bc...
+[22-Mar-2025 07:59:04 Europe/Berlin] CSRF token in POST: c9f6f327bc...
+[22-Mar-2025 07:59:04 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 07:59:04 Europe/Berlin] Session token: c9f6f327bc7b897d8b1845c7fc40e6ecfcf9c814e6b6ab16b96b88aca64b56f9
+[22-Mar-2025 07:59:04 Europe/Berlin] POST token: c9f6f327bc7b897d8b1845c7fc40e6ecfcf9c814e6b6ab16b96b88aca64b56f9
+[22-Mar-2025 07:59:04 Europe/Berlin] Processing login form
+[22-Mar-2025 07:59:04 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 07:59:04 Europe/Berlin] Login successful for user: ada
+[22-Mar-2025 07:59:05 Europe/Berlin] File controller 'InstructordashboardController.php' không tồn tại.
+[22-Mar-2025 08:03:58 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:03:58 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:03:58 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 08:03:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 08:04:01 Europe/Berlin] User logged out successfully
+[22-Mar-2025 08:04:01 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:04:01 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:04:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:04:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:04:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:04:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:04:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:04:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:04:10 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:04:10 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:04:10 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 478bee0b8ee597c1c7c4004608d5f99f217aa83dbbe438634939014907249a1d
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 08:04:10 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:04:10 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:04:10 Europe/Berlin] CSRF token in session: 478bee0b8e...
+[22-Mar-2025 08:04:10 Europe/Berlin] CSRF token in POST: 478bee0b8e...
+[22-Mar-2025 08:04:10 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:04:10 Europe/Berlin] Session token: 478bee0b8ee597c1c7c4004608d5f99f217aa83dbbe438634939014907249a1d
+[22-Mar-2025 08:04:10 Europe/Berlin] POST token: 478bee0b8ee597c1c7c4004608d5f99f217aa83dbbe438634939014907249a1d
+[22-Mar-2025 08:04:10 Europe/Berlin] Processing login form
+[22-Mar-2025 08:04:10 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:04:10 Europe/Berlin] Login successful for user: ada
+[22-Mar-2025 08:04:11 Europe/Berlin] File controller 'InstructordashboardController.php' không tồn tại.
+[22-Mar-2025 08:06:16 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:06:16 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:06:16 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 08:06:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 08:06:17 Europe/Berlin] User logged out successfully
+[22-Mar-2025 08:06:17 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:06:17 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:06:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:17 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:35 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:06:35 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:06:35 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => c4956691f00fd7f552642ae4a411d2586bc7d6a3d076d862dae2881c8d7e1b3d
+    [username] => Vuong123
+    [password] => abc123456
+)
+
+[22-Mar-2025 08:06:35 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:06:35 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:06:35 Europe/Berlin] CSRF token in session: c4956691f0...
+[22-Mar-2025 08:06:35 Europe/Berlin] CSRF token in POST: c4956691f0...
+[22-Mar-2025 08:06:35 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:06:35 Europe/Berlin] Session token: c4956691f00fd7f552642ae4a411d2586bc7d6a3d076d862dae2881c8d7e1b3d
+[22-Mar-2025 08:06:35 Europe/Berlin] POST token: c4956691f00fd7f552642ae4a411d2586bc7d6a3d076d862dae2881c8d7e1b3d
+[22-Mar-2025 08:06:35 Europe/Berlin] Processing login form
+[22-Mar-2025 08:06:35 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:06:36 Europe/Berlin] Login successful for user: Vuong123
+[22-Mar-2025 08:06:37 Europe/Berlin] File controller 'StudentdashboardController.php' không tồn tại.
+[22-Mar-2025 08:06:43 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:06:43 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:06:43 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 08:06:43 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 08:06:45 Europe/Berlin] User logged out successfully
+[22-Mar-2025 08:06:45 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:06:45 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:06:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:06:45 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:07:20 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:07:20 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:07:20 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 68d8b4d6d258d02caad7775f0e53470850bef86d639de27b04094471d0cfee9f
+    [username] => admin
+    [password] => admin123
+)
+
+[22-Mar-2025 08:07:20 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:07:20 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:07:20 Europe/Berlin] CSRF token in session: 68d8b4d6d2...
+[22-Mar-2025 08:07:20 Europe/Berlin] CSRF token in POST: 68d8b4d6d2...
+[22-Mar-2025 08:07:20 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:07:20 Europe/Berlin] Session token: 68d8b4d6d258d02caad7775f0e53470850bef86d639de27b04094471d0cfee9f
+[22-Mar-2025 08:07:20 Europe/Berlin] POST token: 68d8b4d6d258d02caad7775f0e53470850bef86d639de27b04094471d0cfee9f
+[22-Mar-2025 08:07:20 Europe/Berlin] Processing login form
+[22-Mar-2025 08:07:20 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:07:20 Europe/Berlin] Login successful for user: admin
+[22-Mar-2025 08:07:21 Europe/Berlin] File controller 'AdmindashboardController.php' không tồn tại.
+[22-Mar-2025 08:07:23 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:07:23 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:07:23 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 08:07:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 08:17:35 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:17:35 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:17:35 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 08:17:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 08:17:39 Europe/Berlin] User logged out successfully
+[22-Mar-2025 08:17:39 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:17:39 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:17:40 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:40 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:40 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:40 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:40 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:40 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:41 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:17:41 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:17:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:17:50 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:17:50 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:17:50 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => e3613268598c7309a4ce1ed33b41d56f3b3017ec0553bacb1efe996fa52f4252
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 08:17:50 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:17:50 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:17:50 Europe/Berlin] CSRF token in session: e361326859...
+[22-Mar-2025 08:17:50 Europe/Berlin] CSRF token in POST: e361326859...
+[22-Mar-2025 08:17:50 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:17:50 Europe/Berlin] Session token: e3613268598c7309a4ce1ed33b41d56f3b3017ec0553bacb1efe996fa52f4252
+[22-Mar-2025 08:17:50 Europe/Berlin] POST token: e3613268598c7309a4ce1ed33b41d56f3b3017ec0553bacb1efe996fa52f4252
+[22-Mar-2025 08:17:50 Europe/Berlin] Processing login form
+[22-Mar-2025 08:17:50 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:17:50 Europe/Berlin] Login successful for user: ada
+[22-Mar-2025 08:17:51 Europe/Berlin] File controller 'InstructorController.php' không tồn tại.
+[22-Mar-2025 08:19:49 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:19:53 Europe/Berlin] User logged out successfully
+[22-Mar-2025 08:19:53 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:19:53 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:19:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:19:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:19:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:19:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:19:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:19:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:20:03 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:20:03 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:20:03 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 632c59aca83f99b88840b7690dac959ef5b92cc62f8e72256ff5aebcf7f43604
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 08:20:03 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:20:03 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:20:03 Europe/Berlin] CSRF token in session: 632c59aca8...
+[22-Mar-2025 08:20:03 Europe/Berlin] CSRF token in POST: 632c59aca8...
+[22-Mar-2025 08:20:03 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:20:03 Europe/Berlin] Session token: 632c59aca83f99b88840b7690dac959ef5b92cc62f8e72256ff5aebcf7f43604
+[22-Mar-2025 08:20:03 Europe/Berlin] POST token: 632c59aca83f99b88840b7690dac959ef5b92cc62f8e72256ff5aebcf7f43604
+[22-Mar-2025 08:20:03 Europe/Berlin] Processing login form
+[22-Mar-2025 08:20:03 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:20:03 Europe/Berlin] Login successful for user: ada
+[22-Mar-2025 08:20:04 Europe/Berlin] File controller 'InstructorController.php' không tồn tại.
+[22-Mar-2025 08:24:14 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:24:14 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:24:14 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 08:24:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 08:24:18 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:24:18 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:24:18 Europe/Berlin] Undefined variable $featuredCourses in D:\PHP\htdocs\WebCourses\app\views\product\home.php on line 294
+[22-Mar-2025 08:24:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\PHP\htdocs\WebCourses\app\views\product\home.php:175) in D:\PHP\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 08:24:19 Europe/Berlin] User logged out successfully
+[22-Mar-2025 08:24:19 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:24:19 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:24:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:26 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:24:26 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:24:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:35 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:24:35 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:24:35 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => e90b68fb88778c196cdb1b6d64e6e3426160c3cb485823e9f303f1b19692864f
+    [username] => ada
+    [password] => abc123456
+)
+
+[22-Mar-2025 08:24:35 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:24:35 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:24:35 Europe/Berlin] CSRF token in session: e90b68fb88...
+[22-Mar-2025 08:24:35 Europe/Berlin] CSRF token in POST: e90b68fb88...
+[22-Mar-2025 08:24:35 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:24:35 Europe/Berlin] Session token: e90b68fb88778c196cdb1b6d64e6e3426160c3cb485823e9f303f1b19692864f
+[22-Mar-2025 08:24:35 Europe/Berlin] POST token: e90b68fb88778c196cdb1b6d64e6e3426160c3cb485823e9f303f1b19692864f
+[22-Mar-2025 08:24:35 Europe/Berlin] Processing login form
+[22-Mar-2025 08:24:35 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:24:35 Europe/Berlin] Login successful for user: ada
+[22-Mar-2025 08:24:36 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:46 Europe/Berlin] User logged out successfully
+[22-Mar-2025 08:24:46 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:24:46 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:24:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:46 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:54 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:24:54 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:24:54 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => b393b01ec6e7a4c2bd03d8ccf1113e58ce8e924252fe9416815297aaa4fbee97
+    [username] => Vuong123
+    [password] => abc123456
+)
+
+[22-Mar-2025 08:24:54 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:24:54 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:24:54 Europe/Berlin] CSRF token in session: b393b01ec6...
+[22-Mar-2025 08:24:54 Europe/Berlin] CSRF token in POST: b393b01ec6...
+[22-Mar-2025 08:24:54 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:24:54 Europe/Berlin] Session token: b393b01ec6e7a4c2bd03d8ccf1113e58ce8e924252fe9416815297aaa4fbee97
+[22-Mar-2025 08:24:54 Europe/Berlin] POST token: b393b01ec6e7a4c2bd03d8ccf1113e58ce8e924252fe9416815297aaa4fbee97
+[22-Mar-2025 08:24:54 Europe/Berlin] Processing login form
+[22-Mar-2025 08:24:54 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:24:54 Europe/Berlin] Login successful for user: Vuong123
+[22-Mar-2025 08:24:59 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:24:59 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:24:59 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:59 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:59 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:59 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:59 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:24:59 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:25:18 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:25:18 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:25:18 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 9965840c288163339fa103b26bd4fcf99557a1cc4694201e1c2f7eb9f17b5b44
+    [username] => admin
+    [password] => admin12
+)
+
+[22-Mar-2025 08:25:18 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:25:18 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:25:18 Europe/Berlin] CSRF token in session: 9965840c28...
+[22-Mar-2025 08:25:18 Europe/Berlin] CSRF token in POST: 9965840c28...
+[22-Mar-2025 08:25:18 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:25:18 Europe/Berlin] Session token: 9965840c288163339fa103b26bd4fcf99557a1cc4694201e1c2f7eb9f17b5b44
+[22-Mar-2025 08:25:18 Europe/Berlin] POST token: 9965840c288163339fa103b26bd4fcf99557a1cc4694201e1c2f7eb9f17b5b44
+[22-Mar-2025 08:25:18 Europe/Berlin] Processing login form
+[22-Mar-2025 08:25:18 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:25:18 Europe/Berlin] Login failed: Incorrect password for user: admin
+[22-Mar-2025 08:25:24 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 08:25:24 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 08:25:24 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 9965840c288163339fa103b26bd4fcf99557a1cc4694201e1c2f7eb9f17b5b44
+    [username] => admin
+    [password] => admin123
+)
+
+[22-Mar-2025 08:25:24 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 08:25:24 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 08:25:24 Europe/Berlin] CSRF token in session: 9965840c28...
+[22-Mar-2025 08:25:24 Europe/Berlin] CSRF token in POST: 9965840c28...
+[22-Mar-2025 08:25:24 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 08:25:24 Europe/Berlin] Session token: 9965840c288163339fa103b26bd4fcf99557a1cc4694201e1c2f7eb9f17b5b44
+[22-Mar-2025 08:25:24 Europe/Berlin] POST token: 9965840c288163339fa103b26bd4fcf99557a1cc4694201e1c2f7eb9f17b5b44
+[22-Mar-2025 08:25:24 Europe/Berlin] Processing login form
+[22-Mar-2025 08:25:24 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 08:25:24 Europe/Berlin] Login successful for user: admin
+[22-Mar-2025 08:25:33 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:25:33 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:25:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:31:49 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:31:49 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:31:50 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:31:50 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:31:50 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:31:50 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:31:50 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:31:50 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:40:36 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 08:40:36 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 08:40:36 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:40:36 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:40:36 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:40:36 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:40:36 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 08:40:36 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:29:24 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 09:29:24 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 09:29:24 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:29:24 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:29:24 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:29:24 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:29:24 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:29:24 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:39:56 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 09:39:56 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 09:39:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:39:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:39:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:39:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:39:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:39:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:50:04 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 09:50:04 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 09:50:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:50:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:50:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:50:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:50:04 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 09:50:05 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 10:04:50 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 10:04:50 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 10:04:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 10:04:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 10:04:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 10:04:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 10:04:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 10:04:51 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:45:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'online_courses' in D:\xampp\htdocs\WebCourses\app\config\connect.php:9
+Stack trace:
+#0 D:\xampp\htdocs\WebCourses\app\config\connect.php(9): mysqli->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), 'online_courses')
+#1 D:\xampp\htdocs\WebCourses\index.php(4): require_once('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\WebCourses\app\config\connect.php on line 9
+[22-Mar-2025 11:51:18 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 11:51:18 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 11:51:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:51:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:51:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:51:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:51:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:51:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:13 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 11:56:13 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 11:56:13 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:13 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:13 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:13 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:13 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:13 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:15 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 11:56:15 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 11:56:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:16 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:56:52 Europe/Berlin] Home.php loaded. REQUEST_METHOD: POST
+[22-Mar-2025 11:56:52 Europe/Berlin] POST data: Array
+(
+    [prompt] => Tôi cần hỗ trợ kỹ thuật, bạn giúp được không?
+)
+
+[22-Mar-2025 11:57:54 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 11:57:54 Europe/Berlin] Auth controller called with action: 'register', method: POST
+[22-Mar-2025 11:57:54 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+    [username] => abc
+    [email] => cuonghotran17022004@gmail.com
+    [password] => abc12345
+    [role] => instructor
+)
+
+[22-Mar-2025 11:57:54 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[22-Mar-2025 11:57:54 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[22-Mar-2025 11:57:54 Europe/Berlin] CSRF token in session: 3efc74b37f...
+[22-Mar-2025 11:57:54 Europe/Berlin] CSRF token in POST: 3efc74b37f...
+[22-Mar-2025 11:57:54 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 11:57:54 Europe/Berlin] Session token: 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+[22-Mar-2025 11:57:54 Europe/Berlin] POST token: 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+[22-Mar-2025 11:57:54 Europe/Berlin] Processing registration form from direct POST
+[22-Mar-2025 11:57:54 Europe/Berlin] All required registration fields present
+[22-Mar-2025 11:57:54 Europe/Berlin] Username: abc
+[22-Mar-2025 11:57:54 Europe/Berlin] Email: cuonghotran17022004@gmail.com
+[22-Mar-2025 11:57:54 Europe/Berlin] Password length: 8
+[22-Mar-2025 11:57:54 Europe/Berlin] Role: instructor
+[22-Mar-2025 11:57:54 Europe/Berlin] Warning: 'register' parameter not found in POST, adding it
+[22-Mar-2025 11:57:55 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 11:57:55 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 11:57:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:57:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:57:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:57:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:57:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:57:55 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 11:58:13 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 11:58:13 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 11:58:13 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+    [username] => abc123
+    [password] => abc12345
+)
+
+[22-Mar-2025 11:58:13 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 11:58:13 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 11:58:13 Europe/Berlin] CSRF token in session: 3efc74b37f...
+[22-Mar-2025 11:58:13 Europe/Berlin] CSRF token in POST: 3efc74b37f...
+[22-Mar-2025 11:58:13 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 11:58:13 Europe/Berlin] Session token: 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+[22-Mar-2025 11:58:13 Europe/Berlin] POST token: 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+[22-Mar-2025 11:58:13 Europe/Berlin] Processing login form
+[22-Mar-2025 11:58:13 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 11:58:13 Europe/Berlin] Login failed: User not found: abc123
+[22-Mar-2025 11:58:20 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 11:58:20 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 11:58:20 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+    [username] => abc
+    [password] => abc12345
+)
+
+[22-Mar-2025 11:58:20 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 11:58:20 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 11:58:20 Europe/Berlin] CSRF token in session: 3efc74b37f...
+[22-Mar-2025 11:58:20 Europe/Berlin] CSRF token in POST: 3efc74b37f...
+[22-Mar-2025 11:58:20 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 11:58:20 Europe/Berlin] Session token: 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+[22-Mar-2025 11:58:20 Europe/Berlin] POST token: 3efc74b37f6b3a7fb97ae02d062b49155121614c8ecab59ba31e8546b8a4aeb3
+[22-Mar-2025 11:58:20 Europe/Berlin] Processing login form
+[22-Mar-2025 11:58:20 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 11:58:20 Europe/Berlin] Login successful for user: abc
+[22-Mar-2025 12:00:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:00:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:01:21 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:02:07 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:09:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:09:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:16:40 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:16:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:22:35 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:36:17 Europe/Berlin] Unknown column 'l.lesson_name' in 'field list' in D:\xampp\htdocs\WebCourses\app\views\product\assignments.php on line 89
+[22-Mar-2025 12:36:21 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:36:26 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:36:33 Europe/Berlin] Unknown column 'l.lesson_name' in 'field list' in D:\xampp\htdocs\WebCourses\app\views\product\assignments.php on line 89
+[22-Mar-2025 12:41:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:41:58 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:42:00 Europe/Berlin] Unknown column 'q.created_at' in 'order clause' in D:\xampp\htdocs\WebCourses\app\views\product\assignments.php on line 120
+[22-Mar-2025 12:44:29 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:44:30 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:44:32 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:44:32 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:44:32 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:44:32 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:44:32 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:30 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:30 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:30 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:30 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:30 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:43 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:53 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:47:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:52:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:52:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:52:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:52:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:52:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:53:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:53:57 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:15 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:22 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:22 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:39 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 12:54:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:06:28 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:06:28 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:06:28 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:06:35 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:06:35 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:06:35 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:07:03 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:07:03 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:07:03 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:07:14 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:15:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:16:18 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:16:20 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 13:23:41 Europe/Berlin] Unknown column 'instructions' in 'field list' in D:\xampp\htdocs\WebCourses\app\views\product\create_assignment.php on line 100
+[22-Mar-2025 13:33:24 Europe/Berlin] The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\WebCourses\app\views\product\create_assignment.php on line 102
+[22-Mar-2025 17:19:39 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 17:19:39 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 17:19:39 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:19:39 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:19:39 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:19:39 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:19:39 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:19:39 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:20:04 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 17:20:04 Europe/Berlin] Auth controller called with action: 'register', method: POST
+[22-Mar-2025 17:20:04 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => fecbf0803b6e8bfac171ad443dda8d59bba10c55394ad1180957d45d9e3203d4
+    [username] => ada
+    [email] => datdovan456@gmail.com
+    [password] => abc12345
+    [role] => instructor
+)
+
+[22-Mar-2025 17:20:04 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[22-Mar-2025 17:20:04 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[22-Mar-2025 17:20:04 Europe/Berlin] CSRF token in session: fecbf0803b...
+[22-Mar-2025 17:20:04 Europe/Berlin] CSRF token in POST: fecbf0803b...
+[22-Mar-2025 17:20:04 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 17:20:04 Europe/Berlin] Session token: fecbf0803b6e8bfac171ad443dda8d59bba10c55394ad1180957d45d9e3203d4
+[22-Mar-2025 17:20:04 Europe/Berlin] POST token: fecbf0803b6e8bfac171ad443dda8d59bba10c55394ad1180957d45d9e3203d4
+[22-Mar-2025 17:20:04 Europe/Berlin] Processing registration form from direct POST
+[22-Mar-2025 17:20:04 Europe/Berlin] All required registration fields present
+[22-Mar-2025 17:20:04 Europe/Berlin] Username: ada
+[22-Mar-2025 17:20:04 Europe/Berlin] Email: datdovan456@gmail.com
+[22-Mar-2025 17:20:04 Europe/Berlin] Password length: 8
+[22-Mar-2025 17:20:04 Europe/Berlin] Role: instructor
+[22-Mar-2025 17:20:04 Europe/Berlin] Warning: 'register' parameter not found in POST, adding it
+[22-Mar-2025 17:20:05 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 17:20:05 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 17:20:05 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:20:05 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:20:05 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:20:05 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:20:05 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:20:05 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 17:20:17 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 17:20:17 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 17:20:17 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => fecbf0803b6e8bfac171ad443dda8d59bba10c55394ad1180957d45d9e3203d4
+    [username] => ada
+    [password] => abc12345
+)
+
+[22-Mar-2025 17:20:17 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 17:20:17 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 17:20:17 Europe/Berlin] CSRF token in session: fecbf0803b...
+[22-Mar-2025 17:20:17 Europe/Berlin] CSRF token in POST: fecbf0803b...
+[22-Mar-2025 17:20:17 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 17:20:17 Europe/Berlin] Session token: fecbf0803b6e8bfac171ad443dda8d59bba10c55394ad1180957d45d9e3203d4
+[22-Mar-2025 17:20:17 Europe/Berlin] POST token: fecbf0803b6e8bfac171ad443dda8d59bba10c55394ad1180957d45d9e3203d4
+[22-Mar-2025 17:20:17 Europe/Berlin] Processing login form
+[22-Mar-2025 17:20:17 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 17:20:18 Europe/Berlin] Login successful for user: ada
+[22-Mar-2025 17:22:31 Europe/Berlin] Constant BASE_URL already defined in D:\xampp\htdocs\WebCourses\app\views\product\create_assignment.php on line 3
+[22-Mar-2025 17:23:10 Europe/Berlin] Constant BASE_URL already defined in D:\xampp\htdocs\WebCourses\app\views\product\create_assignment.php on line 3
+[22-Mar-2025 17:25:56 Europe/Berlin] Constant ROOT_DIR already defined in D:\xampp\htdocs\WebCourses\app\views\product\create_assignment.php on line 5
+[22-Mar-2025 17:56:35 Europe/Berlin] require_once(D:\xampp\htdocs\WebCoursesapp/config/connect.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\WebCourses\app\views\product\create_assignment.php on line 15
+[22-Mar-2025 17:58:45 Europe/Berlin] include(D:\xampp\htdocs\WebCourses/app/views/components/instructor_header.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\WebCourses\app\views\product\create_assignment.php on line 236
+[22-Mar-2025 18:02:13 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 18:04:36 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 18:05:19 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 18:08:08 Europe/Berlin] File controller 'LocalhostController.php' không tồn tại.
+[22-Mar-2025 18:08:11 Europe/Berlin] File controller 'LocalhostController.php' không tồn tại.
+[22-Mar-2025 18:13:44 Europe/Berlin] File controller 'LocalhostController.php' không tồn tại.
+[22-Mar-2025 18:14:03 Europe/Berlin] Course image uploaded successfully: public/uploads/courses/1742663643_videotoan_4987.png for course 1
+[22-Mar-2025 18:37:38 Europe/Berlin] File controller 'CssController.php' không tồn tại.
+[22-Mar-2025 18:37:38 Europe/Berlin] File controller 'CssController.php' không tồn tại.
+[22-Mar-2025 18:37:38 Europe/Berlin] File controller 'JsController.php' không tồn tại.
+[22-Mar-2025 18:37:38 Europe/Berlin] File controller 'JsController.php' không tồn tại.
+[22-Mar-2025 18:58:50 Europe/Berlin] Table 'online_courses.lectures' doesn't exist in D:\xampp\htdocs\WebCourses\app\controllers\AnalyticsController.php on line 37
+[22-Mar-2025 19:07:16 Europe/Berlin] Unknown column 'lp.lecture_id' in 'on clause' in D:\xampp\htdocs\WebCourses\app\controllers\AnalyticsController.php on line 37
+[22-Mar-2025 19:24:27 Europe/Berlin] Database error in create_assignment.php: Invalid instructor ID
+[22-Mar-2025 19:24:42 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 19:24:42 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 19:24:42 Europe/Berlin] Undefined variable $featuredCourses in D:\xampp\htdocs\WebCourses\app\views\product\home.php on line 374
+[22-Mar-2025 19:24:42 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\views\product\home.php:134) in D:\xampp\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 19:24:48 Europe/Berlin] User logged out successfully
+[22-Mar-2025 19:24:48 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 19:24:48 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 19:24:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:24:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:24:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:24:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:24:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:24:48 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:24:57 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 19:24:57 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 19:24:57 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+    [username] => ada
+    [password] => abc12345
+)
+
+[22-Mar-2025 19:24:57 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 19:24:57 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 19:24:57 Europe/Berlin] CSRF token in session: 3efbfffc76...
+[22-Mar-2025 19:24:57 Europe/Berlin] CSRF token in POST: 3efbfffc76...
+[22-Mar-2025 19:24:57 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 19:24:57 Europe/Berlin] Session token: 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+[22-Mar-2025 19:24:57 Europe/Berlin] POST token: 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+[22-Mar-2025 19:24:57 Europe/Berlin] Processing login form
+[22-Mar-2025 19:24:57 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 19:24:57 Europe/Berlin] Login failed: User not found: ada
+[22-Mar-2025 19:25:20 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 19:25:20 Europe/Berlin] Auth controller called with action: 'register', method: POST
+[22-Mar-2025 19:25:20 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+    [username] => ada
+    [email] => datdovan456@gmail.com
+    [password] => abc12345
+    [role] => instructor
+)
+
+[22-Mar-2025 19:25:20 Europe/Berlin] GET data: Array
+(
+    [action] => register
+)
+
+[22-Mar-2025 19:25:20 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=register
+[22-Mar-2025 19:25:20 Europe/Berlin] CSRF token in session: 3efbfffc76...
+[22-Mar-2025 19:25:20 Europe/Berlin] CSRF token in POST: 3efbfffc76...
+[22-Mar-2025 19:25:20 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 19:25:20 Europe/Berlin] Session token: 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+[22-Mar-2025 19:25:20 Europe/Berlin] POST token: 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+[22-Mar-2025 19:25:20 Europe/Berlin] Processing registration form from direct POST
+[22-Mar-2025 19:25:20 Europe/Berlin] All required registration fields present
+[22-Mar-2025 19:25:20 Europe/Berlin] Username: ada
+[22-Mar-2025 19:25:20 Europe/Berlin] Email: datdovan456@gmail.com
+[22-Mar-2025 19:25:20 Europe/Berlin] Password length: 8
+[22-Mar-2025 19:25:20 Europe/Berlin] Role: instructor
+[22-Mar-2025 19:25:20 Europe/Berlin] Warning: 'register' parameter not found in POST, adding it
+[22-Mar-2025 19:25:21 Europe/Berlin] Home.php loaded. REQUEST_METHOD: GET
+[22-Mar-2025 19:25:21 Europe/Berlin] Đang chuyển hướng đến home.php
+[22-Mar-2025 19:25:21 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:25:21 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:25:21 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:25:21 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:25:22 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:25:22 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:25:33 Europe/Berlin] === AUTH CONTROLLER CALLED ===
+[22-Mar-2025 19:25:33 Europe/Berlin] Auth controller called with action: 'login', method: POST
+[22-Mar-2025 19:25:33 Europe/Berlin] POST data: Array
+(
+    [csrf_token] => 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+    [username] => ada
+    [password] => abc12345
+)
+
+[22-Mar-2025 19:25:33 Europe/Berlin] GET data: Array
+(
+    [action] => login
+)
+
+[22-Mar-2025 19:25:33 Europe/Berlin] Request URI: /WebCourses/app/controllers/auth.php?action=login
+[22-Mar-2025 19:25:33 Europe/Berlin] CSRF token in session: 3efbfffc76...
+[22-Mar-2025 19:25:33 Europe/Berlin] CSRF token in POST: 3efbfffc76...
+[22-Mar-2025 19:25:33 Europe/Berlin] CSRF validation result: VALID
+[22-Mar-2025 19:25:33 Europe/Berlin] Session token: 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+[22-Mar-2025 19:25:33 Europe/Berlin] POST token: 3efbfffc768ca88adeb502971bec0d3c7da7fe3443a410ca91abbba503f89c18
+[22-Mar-2025 19:25:33 Europe/Berlin] Processing login form
+[22-Mar-2025 19:25:33 Europe/Berlin] Adding login parameter to POST data
+[22-Mar-2025 19:25:33 Europe/Berlin] Login successful for user: ada
+[22-Mar-2025 19:26:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:26:33 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:26:41 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:27:09 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:27:38 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:27:44 Europe/Berlin] File controller 'CssController.php' không tồn tại.
+[22-Mar-2025 19:27:44 Europe/Berlin] File controller 'CssController.php' không tồn tại.
+[22-Mar-2025 19:27:44 Europe/Berlin] File controller 'CssController.php' không tồn tại.
+[22-Mar-2025 19:27:44 Europe/Berlin] File controller 'JsController.php' không tồn tại.
+[22-Mar-2025 19:27:44 Europe/Berlin] File controller 'JsController.php' không tồn tại.
+[22-Mar-2025 19:34:25 Europe/Berlin] array_column(): Argument #1 ($array) must be of type array, mysqli_result given in D:\xampp\htdocs\WebCourses\app\views\product\instructor_dashboard.php on line 532
+[22-Mar-2025 19:34:25 Europe/Berlin] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 47
+[22-Mar-2025 19:34:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 19:34:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:34:25 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:34:27 Europe/Berlin] array_column(): Argument #1 ($array) must be of type array, mysqli_result given in D:\xampp\htdocs\WebCourses\app\views\product\instructor_dashboard.php on line 532
+[22-Mar-2025 19:34:27 Europe/Berlin] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 47
+[22-Mar-2025 19:34:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 19:34:27 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:34:27 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:35:01 Europe/Berlin] array_column(): Argument #1 ($array) must be of type array, mysqli_result given in D:\xampp\htdocs\WebCourses\app\views\product\instructor_dashboard.php on line 532
+[22-Mar-2025 19:35:01 Europe/Berlin] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 47
+[22-Mar-2025 19:35:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 19:35:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:35:01 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:35:03 Europe/Berlin] array_column(): Argument #1 ($array) must be of type array, mysqli_result given in D:\xampp\htdocs\WebCourses\app\views\product\instructor_dashboard.php on line 532
+[22-Mar-2025 19:35:03 Europe/Berlin] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 47
+[22-Mar-2025 19:35:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 19:35:03 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:35:03 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:36:00 Europe/Berlin] array_column(): Argument #1 ($array) must be of type array, mysqli_result given in D:\xampp\htdocs\WebCourses\app\views\product\instructor_dashboard.php on line 532
+[22-Mar-2025 19:36:00 Europe/Berlin] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 47
+[22-Mar-2025 19:36:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 19:36:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:36:00 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:36:02 Europe/Berlin] array_column(): Argument #1 ($array) must be of type array, mysqli_result given in D:\xampp\htdocs\WebCourses\app\views\product\instructor_dashboard.php on line 532
+[22-Mar-2025 19:36:02 Europe/Berlin] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 47
+[22-Mar-2025 19:36:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\WebCourses\app\includes\header.php:129) in D:\xampp\htdocs\WebCourses\index.php on line 30
+[22-Mar-2025 19:36:02 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:36:02 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:36:11 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:42:47 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:47:56 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:48:02 Europe/Berlin] File controller 'PublicController.php' không tồn tại.
+[22-Mar-2025 19:48:14 Europe/Berlin] Course image uploaded successfully: public/uploads/courses/1742669294_videotoan_4987.png for course 1
